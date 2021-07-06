@@ -1,0 +1,30 @@
+/*ul*/.list {
+  &-content {
+    line-height: 1.5;
+    font-size: $desc-size;
+    max-width: 650px;
+
+    border-left: 1px solid $color-gray;
+    
+    padding-left: $spacer * 3;
+    padding-right: $spacer * 3;
+    margin-left: $spacer * 3;
+    margin-right: $spacer * 3;
+  }
+
+  &-social {
+    li {
+      width: 48px;
+      height: 48px;
+  
+      @include device-size('phone') {
+        width: 30px;
+        height: 30px;
+      }
+    }
+  
+    a:hover {
+      filter: brightness(50%);
+    }
+  }
+}

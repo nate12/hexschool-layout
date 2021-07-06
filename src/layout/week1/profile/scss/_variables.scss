@@ -1,0 +1,39 @@
+// color-variables
+$color-black: #000000;
+$color-white: #ffffff;
+$color-brown: #a00404;
+$color-gray: #96A9C4;
+$color-blue: #415165;
+
+// theme-color-variables
+$color-light: $color-white;
+$color-subtitle: $color-brown;
+$border-dark: $color-black;
+$border-light: $color-white;
+$border-blue: $color-blue;
+$bg-blue: $color-blue;
+
+// font-size
+$body-font-size: (24/16)+rem;
+$h1-size: (80/16)+rem;
+$h2-size: (32/16)+rem;
+$h2-span-size: (24/16)+rem;
+$desc-size: (20/16)+rem;
+
+// font-family
+$body-font-family: 'Noto Sans', 'Noto Sans TC', -apple-system, '微軟正黑體', sans-serif;
+
+$title-font-family: 'Roboto', $body-font-family;
+
+// Spacing
+$spacer: 8px;
+$spacers: (
+    0: 0,
+    1: ($spacer * 1),
+    2: ($spacer * 2),
+    3: ($spacer * 3),
+    4: ($spacer * 4),
+    5: ($spacer * 5),
+    6: ($spacer * 6),
+    9: ($spacer * 9)
+);

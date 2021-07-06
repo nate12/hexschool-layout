@@ -1,0 +1,14 @@
+.footer {
+  font-family: $title-font-family;
+  
+  @include device-size('phone') {
+    font-size: 1rem;
+  }
+
+  a {
+    color: $color-light;
+    &:hover {
+      color: darken($color-light, 50%);
+    }
+  }
+}

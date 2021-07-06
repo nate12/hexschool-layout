@@ -1,0 +1,16 @@
+// Breakpoints max-width
+$grid-breakpoints: (
+  phone: 576px,
+  pad: 768px
+);
+
+@mixin device-size($name, $breakpoints: $grid-breakpoints) {
+  $max: map-get($breakpoints, $name);
+  @if ($max != 0) {
+    @media (max-width: $max) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

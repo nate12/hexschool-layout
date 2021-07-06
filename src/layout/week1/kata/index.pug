@@ -1,0 +1,25 @@
+doctype html
+html(lang="zh-TW")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+    link(rel="stylesheet", href="css/style.css")
+    base(href="https://fakeimg.pl/")
+  body 
+    .container.d-flex.mt-6
+      main
+        - var n = 0
+        ul
+          while n < 2
+            - n++
+            li.d-flex.mb-6
+              img(src="96x96", alt="fakeimg")
+              .mx-5
+                .title Title Lorem..
+                p.text-ellipsis.row-3 Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dicta culpa iste autem ducimus eum error tenetur assumenda placeat natus?
+      
+      aside: img(src="216x216", alt="fakeimg")
+
+    footer.footer.container.text-center 表尾文字

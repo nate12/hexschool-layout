@@ -1,0 +1,38 @@
+.title {
+  font-family: $title-font-family;
+  font-weight: normal;
+  line-height: 1.4;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #000;
+
+  &--name {
+    font-size: $h1-size;
+  
+    .name {
+      width: min-content;
+    }
+  }
+
+  &--section {
+    font-size: $h2-size;
+    padding-bottom: $spacer;
+    margin-bottom: $spacer*2;
+  
+    @include device-size('phone') {
+      flex-direction: column;
+    }
+  
+    span {
+      color: $color-subtitle;
+      font-size: $h2-span-size;
+      margin-left: 1rem;
+      text-transform: uppercase;
+  
+      @include device-size('phone') {
+        margin-left: 0;
+        display: block;
+      }
+    }
+  }
+}
