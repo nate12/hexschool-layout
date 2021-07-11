@@ -17,12 +17,6 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 1
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist\/dist",
-      "oF" : 0
-    },
     "\/readme.md" : {
       "cB" : 0,
       "cS" : 0,
@@ -33,7 +27,7 @@
       "ft" : 4096,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/README.html",
+      "oAP" : "\/dist\/readme.html",
       "oF" : 0,
       "oFM" : 0,
       "oS" : 0,
@@ -569,7 +563,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-glace",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 647676609.24726796
+    "lastBuiltDate" : 647677839.28429604
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -1988,7 +1982,7 @@
     },
     "esLintSourceType" : 0,
     "externalServerAddress" : "http:\/\/localhost:8888",
-    "gitIgnoreBuildFolder" : 1,
+    "gitIgnoreBuildFolder" : 0,
     "hideConfigFile" : 0,
     "jsCheckerReservedNamesString" : "",
     "jsHintFlags2" : {
