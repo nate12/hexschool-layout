@@ -1,0 +1,12 @@
+/*li*/.list-circle  {
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin-right: 16px;
+    background-color: #891818;
+    border-radius: 50%;
+    vertical-align: middle;
+  }
+}

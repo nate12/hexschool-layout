@@ -1,0 +1,16 @@
+// Breakpoints min-width
+$grid-breakpoints: (
+  pad: 576px,
+  desktop: 768px
+);
+
+@mixin device-size($name, $breakpoints: $grid-breakpoints) {
+  $min: map-get($breakpoints, $name);
+  @if ($min != 0) {
+    @media (min-width: $min) {
+      @content;
+    }
+  } @else {
+    @content;
+  }
+}

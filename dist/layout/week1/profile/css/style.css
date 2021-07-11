@@ -533,9 +533,14 @@ a {
   padding: 0 15px;
 }
 
+.container-md {
+  max-width: 996px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 .title {
   font-family: "Roboto", "Noto Sans", "Noto Sans TC", -apple-system, "微軟正黑體", sans-serif;
-  font-weight: normal;
   line-height: 1.4;
   display: flex;
   align-items: center;

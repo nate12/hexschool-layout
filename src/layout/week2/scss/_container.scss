@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+
+  [class*="col-"] {
+    box-sizing: border-box;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+
+.col-md-6 {
+  @include device-size(desktop) {
+    max-width: 50%;
+  }
+}
+
+.col-md-4 {
+  @include device-size(desktop) {
+    max-width: 33.33%;
+  }
+}

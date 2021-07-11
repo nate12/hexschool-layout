@@ -1,0 +1,10 @@
+.border-bottom {
+  border-bottom: 1px solid #000;
+}
+
+.border-bottom--after::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #000;
+  margin: 24px 14px;
+}

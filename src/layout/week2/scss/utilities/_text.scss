@@ -1,0 +1,51 @@
+// Font-size
+$font-size-base: 1rem !default;
+$font-sizes: (
+  1: $font-size-base * 5, //80
+  2: $font-size-base * 4, //64
+  3: $font-size-base * 1.5, //24
+  4: $font-size-base * 1.25, //20
+);
+
+@each $size, $sizeamount in $font-sizes{
+  h#{$size} {
+    font-size: #{$sizeamount};
+  }
+}
+@each $size, $sizeamount in $font-sizes{
+  .fs-#{$size}{
+    font-size: #{$sizeamount} !important;
+  }
+};
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.fst-italic {
+  font-style: italic;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fw-bold {
+  font-weight: bold;
+}
+
+.fw-bolder {
+  font-weight: bolder;
+}
+
+.lh-md {
+  line-height: 1.325;
+}
+
+.lh-lg {
+  line-height: 1.75;
+}
