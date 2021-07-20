@@ -1,0 +1,156 @@
+doctype html
+html(lang="zh-TW")
+  include _head.pug
+
+  body 
+    include _header.pug
+
+    section.position-relative.d-flex.justify-content-center.align-items-center
+      picture
+        source(
+          media="(min-width: 769px)",
+          srcset="images/banner.png"
+        )
+        img.img-object-cover.img-fluid(src="images/banner-sm.png", alt="banner")
+      .container.position-absolute.text-end.text-heading
+        span.fs-6.fs-md-5.fs-lg-4.fw-normal Promise-Desert 2020 早春系列
+        h1.text-heading.fs-3.fs-md-2.fs-lg-1 看得清，才能看得遠
+
+    section.bg-secondary
+      .container.pt-10.pb-5
+        h2.text-heading.text-center.mb-6 用專業的心，做專業的事
+        
+        ul.row.row-cols-8.row-cols-6.row-cols-lg-3.justify-content-center.list-unstyled
+          li.col-8.col-md-6.col-lg-3.mb-5
+            h3.h5.text-center.text-heading.mb-1
+              span.d-table.mx-auto.material-icons-outlined.mb-3(style="font-size: 84px;") paid
+              | 單一價格
+            p 無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。
+
+          li.col-8.col-md-6.col-lg-3.mb-5
+            h3.h5.text-center.text-heading.mb-1
+              span.d-table.mx-auto.material-icons-outlined.mb-3(style="font-size: 84px;") schedule
+              | 20 分鐘即可取件
+            p 為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。
+
+          li.col-8.col-md-6.col-lg-3.mb-5
+            h3.h5.text-center.text-heading.mb-1
+              span.d-table.mx-auto.material-icons-outlined.mb-3(style="font-size: 84px;") favorite_border
+              | 安心售後服務
+            p 我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。
+
+          li.col-8.col-md-6.col-lg-3.mb-5
+            h3.h5.text-center.text-heading.mb-1
+              span.d-table.mx-auto.material-icons-outlined.mb-3(style="font-size: 84px;") voicemail
+              | 關於鏡片
+            p 使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。
+
+    section.container.pt-10.pb-6
+      h2.text-heading.text-center.mb-5 經典系列鏡框
+      ul.mb-0.list-unstyled
+        li.row.mb-4
+          .col-md-7.col-12
+            img.img-fluid(src="images/product-1.png", alt="optical")
+          .col.align-self-center.position-absolute.position-md-static
+            .text-primary.fw-bold.text-uppercase.fs-lg-2.fs-4.d-flex.justify-content-center.justify-content-md-start.align-items-center
+              span.material-icons-outlined.fs-lg-2.fs-4.me-1 auto_awesome
+              | optical
+
+        li.row.flex-lg-row-reverse.mb-4
+          .col-md-7.col-12
+            img.img-fluid(src="images/product-2.png", alt="sunglasses")
+          .col.align-self-center.position-absolute.position-md-static
+            .text-primary.fw-bold.text-uppercase.fs-lg-2.fs-4.d-flex.justify-content-center.justify-content-md-start.justify-lg-content-end.align-items-center
+              span.material-icons-outlined.fs-lg-2.fs-4.me-1 light_mode
+              | sunglasses
+        
+        li.row.mb-4
+          .col-md-7.col-12
+            img.img-fluid(src="images/product-3.png", alt="functional")
+          .col.align-self-center.position-absolute.position-md-static
+            .text-primary.fw-bold.text-uppercase.fs-lg-2.fs-4.d-flex.justify-content-center.justify-content-md-start.align-items-center
+              span.material-icons-outlined.fs-lg-2.fs-4.me-1 flash_on
+              | functional
+
+    section.bg-img.bg-img-woman
+      .container.pt-10.pb-8
+        h2.text-white.text-center.mb-5 聯名設計鏡框
+        ul.row.row-cols-1.row-cols-md-2.mb-0.list-unstyled
+          li.col.mb-2
+            .position-relative.bg-white--before
+              img.img-full(src="images/product-8.png", alt="Double A+")
+              .position-absolute.w-100.h-100.top-0.d-flex.justify-content-center.align-items-center
+                .fs-4.fs-lg-1.fw-bold.text-primary Double A+
+
+          li.col.mb-2
+            .position-relative.bg-white--before
+              img.img-full(src="images/product-9.png", alt="YOUTH")
+              .position-absolute.w-100.h-100.top-0.d-flex.justify-content-center.align-items-center
+                .fs-4.fs-lg-1.fw-bold.text-primary YOUTH
+
+    section.container.pt-10.pb-6
+      h2.text-heading.text-center.mb-5 顧客推薦
+      ul.row.row-cols-1.row-cols-md-2.row-cols-lg-4.mb-0.list-unstyled
+        li.col.mb-4
+          .card.h-100.shadow-sm
+            img.card-img-top.img-full(src="images/rec-1.png", alt="rec-1")
+            .card-body.text-dark
+              h3.card-title.small.mb-1 Jessy
+              p.card-text 眼鏡品質優良，下次還會想來這邊購買！
+            .card-footer.bg-white.border-0
+              small.text-muted 2021/06/20
+        
+        li.col.mb-4
+          .card.h-100.shadow-sm
+            img.card-img-top.img-full(src="images/rec-2.png", alt="rec-2")
+            .card-body.text-dark
+              h3.card-title.small.mb-1 凱倫
+              p.card-text 做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！
+            .card-footer.bg-white.border-0
+              small.text-muted 2021/04/18
+
+        li.col.mb-4
+          .card.h-100.shadow-sm
+            img.card-img-top.img-full(src="images/rec-3.png", alt="rec-3")
+            .card-body.text-dark
+              h3.card-title.small.mb-1 悠悠
+              p.card-text 謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！
+            .card-footer.bg-white.border-0
+              small.text-muted 2020/12/25
+
+        li.col.mb-4
+          .card.h-100.shadow-sm
+            img.card-img-top.img-full(src="images/rec-4.png", alt="rec-4")
+            .card-body.text-dark
+              h3.card-title.small.mb-1 Kyuan
+              p.card-text 服務很好，品質沒有任何問題，非常喜歡。
+            .card-footer.bg-white.border-0
+              small.text-muted 2020/10/31
+
+    section.bg-secondary
+      .container.py-10
+        h2.text-heading.text-center.mb-5 聯絡我們
+        form.row.justify-content-center
+          .col-12.col-md-8
+            p 我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。
+          .col-12.col-md-8.mb-1
+            label.form-label(for='inputName') 姓名
+            input#inputName.form-control(type='text' placeholder="陳小明" required)
+          .col-12.col-md-8.mb-1
+            label.form-label(for='inputPhone') 聯絡電話
+            input#inputPhone.form-control(type='tel' placeholder="0912-345-678" required)
+          .col-12.col-md-8.mb-1
+            label.form-label(for='inputEmail') 電子郵件
+            input#inputEmail.form-control(type='email' placeholder="example@email.com" required)
+          .col-12.col-md-8.mb-1
+            label.form-label(for='inputContent') 意見反應
+            textarea#inputContent.form-control(rows='3' placeholder="請輸入您的意見")
+          .col-12.col-md-8.mb-3.ps-5.form-check
+            input#inputCheck.form-check-input(type='checkbox')
+            label.form-check-label(for='inputCheck') 我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+          .w-100
+          .col-6.col-md-4
+            button.w-100.btn.btn-primary(type='submit') 確定送出
+
+
+    include _footer.pug

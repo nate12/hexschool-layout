@@ -1,0 +1,19 @@
+.bg-img {
+  background-size: cover;
+  background-position: center center;
+
+  &-woman {
+    background-image: url('../images/bg.png');
+  }
+}
+
+.bg-white--before::before {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #fff;
+  opacity: .5;
+}

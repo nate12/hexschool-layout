@@ -1,0 +1,148 @@
+.footer {
+  color: $white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+
+  a {
+    color: $white;
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  &__nav {
+    display: none;
+
+    li {
+      display: inline;
+      
+      a {
+        padding: 8px 24px;
+      }
+
+      &:first-child {
+        a {
+          padding-left: 0;
+        }
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      display: block;
+    }
+  }
+
+  &__address {
+    .material-icons-outlined {
+      font-size: $font-size-base;
+      margin-right: 6px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+    }
+
+    @include media-breakpoint-up(md) {
+      font-size: $h5-font-size;
+
+      .material-icons-outlined {
+        font-size: $h5-font-size;
+        margin-right: 10px;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: $h1-font-size;
+
+      .material-icons-outlined {
+        font-size: $h1-font-size;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  &__copyright {
+    font-size: $font-size-base * 0.875;
+
+    border-top: 1px solid #fff;
+
+    margin-top: 24px;
+    padding-top: 16px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-base;
+      padding-top: 32px;
+
+      flex-direction: row;
+
+      li {
+        display: inline;
+        a {
+          padding-left: 12px;
+          padding-right: 12px;
+        }
+  
+        &:last-child {
+          a {
+            padding-right: 0;
+          }
+        }
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      li {
+        a {
+          padding-left: 24px;
+          padding-right: 24px;
+        }
+      }
+    }
+  }
+
+  &__social {
+    li {
+      display: inline-block;
+
+      &:last-child {
+        a {
+          padding-right: 0;
+        }
+      }
+    }
+
+    a {
+      filter: brightness(0) invert(1);
+      &:hover {
+        filter: brightness(0.2);
+      }
+    }
+
+    img.instagram {
+      padding: .1em;
+    }
+
+    img {
+      width: 24px;
+      height: auto;
+    }
+
+    @include media-breakpoint-up(lg) {
+      img {
+        width: 48px;
+        height: auto;
+      }
+
+      .material-icons-outlined {
+        font-size: 48px;
+      }
+    }
+  }
+}

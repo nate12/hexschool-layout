@@ -1,0 +1,183 @@
+// Variables
+
+// scss-docs-start gray-color-variables
+$white:    #fff;
+$black:    #000;
+// scss-docs-end gray-color-variables
+
+// scss-docs-start theme-color-variables
+$primary:       #aa0601;
+$secondary:     #FBF2F2;
+// $success:       $green !default;
+// $info:          $cyan !default;
+// $warning:       $yellow !default;
+// $danger:        $red !default;
+$light:         $white;
+$dark:          #212529;
+// scss-docs-end theme-color-variables
+
+// scss-docs-start theme-colors-map
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  // "success":    $success,
+  // "info":       $info,
+  // "warning":    $warning,
+  // "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "heading": #650300,
+);
+// scss-docs-end theme-colors-map
+
+
+// Spacing
+// scss-docs-start spacer-variables-maps
+$spacer: 8px;
+$spacers: (
+  0: 0,
+  1: $spacer,
+  2: $spacer * 2,
+  3: $spacer * 3,
+  4: $spacer * 4,
+  5: $spacer * 5,
+  6: $spacer * 6,
+  8: $spacer * 8,
+  10: $spacer * 10,
+);
+// scss-docs-end spacer-variables-maps
+
+// Position
+//
+// Define the edge positioning anchors of the position utilities.
+
+// scss-docs-start position-map
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%
+) !default;
+// scss-docs-end position-map
+
+// Body
+//
+// Settings for the `<body>` element.
+
+$body-color: $black;
+
+// Links
+//
+// Style anchor elements.
+
+$link-color:                              $primary !default;
+$link-decoration:                         none;
+$link-shade-percentage:                   20% !default;
+$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration:                   null !default;
+
+$stretched-link-pseudo-element:           after !default;
+$stretched-link-z-index:                  1 !default;
+
+// Paragraphs
+//
+// Style p element.
+
+$paragraph-margin-bottom:   1rem !default;
+
+
+// Grid breakpoints
+// scss-docs-start grid-breakpoints
+$grid-breakpoints: (
+  xs: 0,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+// scss-docs-end grid-breakpoints
+
+// Grid containers
+//
+// Define the maximum width of `.container` for different screen sizes.
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  md: 720px,
+  lg: 960px,
+  xl: 1140px
+);
+// scss-docs-end container-max-widths
+
+// Grid columns
+//
+// Set the number of columns and specify the width of the gutters.
+
+$grid-gutter-width:           30px;
+$grid-row-columns:            6 !default;
+
+$gutters: $spacers !default;
+
+// Container padding
+
+$container-padding-x: $grid-gutter-width * .5 !default;
+
+// Typography
+// stylelint-disable value-keyword-case
+$font-family-sans-serif: Roboto, "Noto Sans",system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// stylelint-enable value-keyword-case
+
+// $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
+// $font-size-base affects the font size of the body text
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.25 !default;
+
+$line-height-base:            1.5 !default;
+$line-height-sm:              1.25 !default;
+$line-height-lg:              2 !default;
+
+// 64px
+$h1-font-size:                $font-size-base * 4;
+// 48px
+$h2-font-size:                $font-size-base * 3;
+// 42px
+$h3-font-size:                $font-size-base * 2.625;
+// 32px
+$h4-font-size:                $font-size-base * 2;
+// 20px
+$h5-font-size:                $font-size-base * 1.25;
+$h6-font-size:                $font-size-base;
+// scss-docs-end font-variables
+
+// scss-docs-start font-sizes
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size
+);
+// scss-docs-end font-sizes
+
+// scss-docs-start headings-variables
+$headings-margin-bottom:      0;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+// scss-docs-end headings-variables
+
+$utilities: (
+  "font-size": (
+    responsive: true,
+    rfs: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes
+  ),
+
+  "position": (
+    responsive: true,
+    property: position,
+    values: static relative absolute fixed sticky
+  ),
+);
