@@ -1,0 +1,45 @@
+extends _layout
+
+block title
+  title 門市據點 | #{site_name}
+
+block content
+  .container.pb-lg-8.pb-md-6.pb-5
+    h1.title.title-page 門市據點
+    form
+      .row.align-items-center.mb-lg-5.mb-3
+        label.col-auto.fs-4 選擇地區
+        .col-3
+          select.form-select
+            option(selected) 台北市
+
+    - var n = 0
+    ul.row.row-cols-lg-3.row-cols-md-2.row-cols-1.mb-lg-8.list-unstyled
+      while n < 5
+        - n++
+        li.col.mb-md-4.mb-2
+          .card.rounded-0.h-100
+            .ratio(style="--bs-aspect-ratio: 63%;")
+              img.img-object-cover(src='images/locate'+n+'.jpg' alt='店內照片')
+            .fs-5.card-title.px-3.py-1.border-bottom 台北中山旗艦店
+            .card-body.px-3
+              .card-text
+                .d-table
+                  .d-table-row
+                    .d-table-cell.pe-1.pb-1
+                      span.material-icons-outlined call
+                    .d-table-cell.
+                      電話：(02)000-1234
+                  .d-table-row
+                    .d-table-cell.pb-1
+                      span.material-icons-outlined schedule
+                    .d-table-cell.
+                      營業時間：10:00-21:00
+                  .d-table-row
+                    .d-table-cell.pb-1
+                      span.material-icons-outlined place
+                    .d-table-cell.
+                      地址：台北市中山區南京東路25巷2-1號
+            a(href="location-store.html").link-black.
+              詳細資訊
+            

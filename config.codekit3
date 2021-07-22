@@ -17,17 +17,11 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 1
     },
-    "\/dist" : {
-      "ft" : 65536,
-      "oA" : 1,
-      "oAP" : "\/dist\/dist",
-      "oF" : 0
-    },
     "\/node_modules" : {
       "ft" : 65536,
-      "oA" : 2,
+      "oA" : 1,
       "oAP" : "\/dist\/node_modules",
-      "oF" : 0
+      "oF" : 1
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -578,6 +572,16 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/layout\/week3\/_config.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/layout\/week3\/_config.html",
+      "oF" : 0,
+      "oS" : 0
+    },
     "\/src\/layout\/week3\/_footer.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -605,6 +609,36 @@
       "hM" : 0,
       "oA" : 1,
       "oAP" : "\/dist\/layout\/week3\/_header.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/layout\/week3\/_layout.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/layout\/week3\/_layout.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/layout\/week3\/blog.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/layout\/week3\/blog.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/layout\/week3\/faq.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/layout\/week3\/faq.html",
       "oF" : 0,
       "oS" : 0
     },
@@ -693,7 +727,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-1.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -719,7 +753,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-3.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -732,7 +766,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-4.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -745,7 +779,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-5.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -771,7 +805,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-7.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -784,7 +818,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-8.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -797,7 +831,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/blog-9.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -812,7 +846,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1138,7 +1172,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1151,7 +1185,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1164,7 +1198,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1177,7 +1211,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1190,7 +1224,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1221,7 +1255,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1273,7 +1307,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/product-2.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1390,7 +1424,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/products-2.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1403,7 +1437,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/products-3.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1431,7 +1465,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1444,7 +1478,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1457,7 +1491,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1470,7 +1504,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1483,7 +1517,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1496,7 +1530,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1509,7 +1543,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1522,7 +1556,7 @@
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
-      "ou" : "lpckwebp-lossless",
+      "ou" : "lpckwebp-none",
       "q" : 100,
       "rq" : 100
     },
@@ -1572,7 +1606,7 @@
       "oAP" : "\/dist\/layout\/week3\/images\/rec-3.png",
       "oF" : 0,
       "oIPL" : 0,
-      "opt" : 0,
+      "opt" : 1,
       "oT" : 1,
       "ou" : "lpckwebp-none",
       "q" : 100,
@@ -1601,19 +1635,25 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/scss\/_base.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/css\/_base.css",
+    "\/src\/layout\/week3\/location-store.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/layout\/week3\/location-store.html",
       "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
+      "oS" : 0
+    },
+    "\/src\/layout\/week3\/location.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/layout\/week3\/location.html",
+      "oF" : 0,
+      "oS" : 0
     },
     "\/src\/layout\/week3\/scss\/_reset.css" : {
       "aP" : 1,
@@ -1678,6 +1718,34 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dist\/layout\/week3\/scss\/css\/_header.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/layout\/week3\/scss\/layout\/_link.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_link.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/layout\/week3\/scss\/layout\/_title.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_title.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1752,7 +1820,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-glace",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 647690092.22906804
+    "lastBuiltDate" : 648671137.45129895
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -3584,7 +3652,7 @@
       "autoOutputPathStyle" : 0,
       "outputFormat" : 0,
       "quality" : 100,
-      "webpOptimizationPresetUUID" : "lpckwebp-lossless",
+      "webpOptimizationPresetUUID" : "lpckwebp-none",
       "webpRGBQuality" : 100
     },
     "languageDefaultsJS" : {

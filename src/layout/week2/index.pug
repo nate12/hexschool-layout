@@ -7,97 +7,98 @@ html(lang="zh-TW")
     title Here's Joanne
     link(rel="stylesheet", href="css/style.css")
     base(href="https://hexschool.github.io/webLayoutTraining1st/week2/" target="_blank")
-  body.fst-italic
-    section.text-white.h-100vh.d-flex-center.pos-r.fw-bold.fs-3
-      img.pos-a.img-fit-cover.wh-100(src="banner.png", alt="banner")
-      .pos-r
-        h1.mb-4
-          span.fs-3.d-block.lh-lg Here's
-          span.text-uppercase.fw-bolder.lh-md Joanne
-        p.mb-5.d-table.mx-auto
-          | Founder of "XXXD Official" 
+  body
+    main
+      section.text-white.h-100vh.d-flex-center.pos-r.fw-bold.fs-3
+        img.pos-a.img-fit-cover.wh-100(src="banner.png", alt="banner")
+        .pos-r
+          h1.mb-4
+            span.fs-3.d-block.lh-lg Here's
+            span.text-uppercase.fw-bolder.lh-md Joanne
+          p.mb-5.d-table.mx-auto
+            | Founder of "XXXD Official" 
+            br
+            | & Graphic Designer
+          ul.d-flex.justify-content-between
+            each val in ['behance', 'facebook', 'instagram', 'youtube']
+              li.px-1
+                a.link-svg(href="https://www." + val + ".net/")
+                  img(src= val + ".svg", alt=val)
+
+      section.py-7.text-center.fs-3
+        h2.mb-5.lh-md About
+        img.mb-3.img-fluid(src="photo.png", alt="photo")
+        ul.fw-bold.d-table.mx-auto
+          li Joanne Chen
+          li.mb-1 1997/10/10
+          li.border-bottom--after
+            | National Hex School Normal University
+            br
+            | Department of Visual Design
+          li.mb-3.list-circle Founder of ‘’XXXD Official’’
+          li.mb-3.list-circle Graphic Designer
+          li.list-circle Graphic Intern of Hex School
+
+
+      section.pt-7.pb-10.bg-black.text-white.text-center
+        h2.mb-2.lh-md My Brand ‘’XXXD’’
+        p.mb-3.fs-3.lh-lg Just Keep XXXD Everyday
+        p.mb-5
+          | 2020 年創立的個人服飾品牌 
           br
-          | & Graphic Designer
-        ul.d-flex.justify-content-between
-          each val in ['behance', 'facebook', 'instagram', 'youtube']
-            li.px-1
-              a.link-svg(href="https://www." + val + ".net/")
-                img(src= val + ".svg", alt=val)
-
-    section.py-7.text-center.fs-3
-      h2.mb-5.lh-md About
-      img.mb-3.img-fluid(src="photo.png", alt="photo")
-      ul.fw-bold.d-table.mx-auto
-        li Joanne Chen
-        li.mb-1 1997/10/10
-        li.border-bottom--after
-          | National Hex School Normal University
+          | 引領叛逆少年開啟與社會對話的窗口 
           br
-          | Department of Visual Design
-        li.mb-3.list-circle Founder of ‘’XXXD Official’’
-        li.mb-3.list-circle Graphic Designer
-        li.list-circle Graphic Intern of Hex School
+          | 主打概念潮流 T-Shirt
 
+        .container
+          ul.row.justify-content-center.mb-7
+            li.col-12.py-3
+              img.img-fluid(src="brand_img1.png", alt="brand_img1")
+            li.col-md-6.py-3
+              img.img-fluid(src="brand_img2.png", alt="brand_img2")
+            li.col-md-6.py-3
+              img.img-fluid(src="brand_img3.png", alt="brand_img3")
 
-    section.pt-7.pb-10.bg-black.text-white.text-center
-      h2.mb-2.lh-md My Brand ‘’XXXD’’
-      p.mb-3.fs-3.lh-lg Just Keep XXXD Everyday
-      p.mb-5
-        | 2020 年創立的個人服飾品牌 
-        br
-        | 引領叛逆少年開啟與社會對話的窗口 
-        br
-        | 主打概念潮流 T-Shirt
-
-      .container
-        ul.row.justify-content-center.mb-7
-          li.col-12.py-3
-            img.img-fluid(src="brand_img1.png", alt="brand_img1")
-          li.col-md-6.py-3
-            img.img-fluid(src="brand_img2.png", alt="brand_img2")
-          li.col-md-6.py-3
-            img.img-fluid(src="brand_img3.png", alt="brand_img3")
-
-    section.py-7.text-center
-      h2.mb-2.lh-md Other Works
-      p.mb-4
-        | 2016-2020 年累積的作品
-        br
-        | 海報/廣告/攝影/LOGO/3D
-      .container.fs-4
-        ul.row.justify-content-center.mb-7
-          li.col-md-4.py-3
-            figure
-              img.img-fluid.mb-2(src="work_img1.png", alt="work_img1")
-              figcaption 海報設計/2017
-          li.col-md-4.py-3
-            figure.img-fluid
-              img.mb-2.img-fluid(src="work_img2.png", alt="work_img2")
-              figcaption 海報設計/2018
-          li.col-md-4.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img3.png", alt="work_img3")
-              figcaption 海報設計/2018
-          li.col-md-6.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img4.png", alt="work_img4")
-              figcaption 概念攝影/2018
-          li.col-md-6.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img5.png", alt="work_img5")
-              figcaption 概念攝影/2018
-          li.col-md-4.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img6.png", alt="work_img6")
-              figcaption sasa 酒標設計/2019
-          li.col-md-4.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img7.png", alt="work_img7")
-              figcaption 攝影創作/2018
-          li.col-md-4.py-3
-            figure
-              img.mb-2.img-fluid(src="work_img8.png", alt="work_img8")
-              figcaption 官網設計/2020
+      section.py-7.text-center
+        h2.mb-2.lh-md Other Works
+        p.mb-4
+          | 2016-2020 年累積的作品
+          br
+          | 海報/廣告/攝影/LOGO/3D
+        .container.fs-4
+          ul.row.justify-content-center.mb-8
+            li.col-md-4.py-3
+              figure
+                img.img-fluid.mb-2(src="work_img1.png", alt="work_img1")
+                figcaption 海報設計/2017
+            li.col-md-4.py-3
+              figure.img-fluid
+                img.mb-2.img-fluid(src="work_img2.png", alt="work_img2")
+                figcaption 海報設計/2018
+            li.col-md-4.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img3.png", alt="work_img3")
+                figcaption 海報設計/2018
+            li.col-md-6.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img4.png", alt="work_img4")
+                figcaption 概念攝影/2018
+            li.col-md-6.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img5.png", alt="work_img5")
+                figcaption 概念攝影/2018
+            li.col-md-4.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img6.png", alt="work_img6")
+                figcaption sasa 酒標設計/2019
+            li.col-md-4.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img7.png", alt="work_img7")
+                figcaption 攝影創作/2018
+            li.col-md-4.py-3
+              figure
+                img.mb-2.img-fluid(src="work_img8.png", alt="work_img8")
+                figcaption 官網設計/2020
     
     footer.bg-black.text-center.text-white.py-8.fs-3
       address

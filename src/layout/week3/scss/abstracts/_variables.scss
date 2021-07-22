@@ -26,7 +26,8 @@ $theme-colors: (
   // "danger":     $danger,
   "light":      $light,
   "dark":       $dark,
-  "heading": #650300,
+  "black":      $black,
+  "heading":  #650300,
 );
 // scss-docs-end theme-colors-map
 
@@ -162,9 +163,25 @@ $font-sizes: (
 
 // scss-docs-start headings-variables
 $headings-margin-bottom:      0;
-$headings-font-weight:        500 !default;
+$headings-font-weight:        700;
 $headings-line-height:        1.2 !default;
 // scss-docs-end headings-variables
+
+$pagination-color:        #555555;
+$pagination-border-radius:  none;
+$pagination-border-color: #555555;
+$pagination-hover-color:    $white;
+$pagination-hover-bg:       $black;
+$pagination-active-color:   $white;
+$pagination-active-bg:      $black;
+
+$pagination-disabled-bg:  #F2F2F2;
+$pagination-disabled-border-color:  #555555;
+
+$border-widths: (
+  1: 1px,
+  8: 8px
+);
 
 $utilities: (
   "font-size": (

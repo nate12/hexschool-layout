@@ -1,0 +1,30 @@
+.title {
+  font-size: $h4-font-size;
+
+  @include media-breakpoint-up(md) {
+    font-size: $h2-font-size;
+  }
+
+  @include media-breakpoint-up(lg) {
+    font-size: $h1-font-size;
+  }
+
+  &-page {
+    margin-top: 28px;
+    margin-bottom: 24px;
+    padding-left: 8px;
+    border-left: 4px solid $primary;
+
+    @include media-breakpoint-up(md) {
+      margin-top: 60px;
+      margin-bottom: 40px;
+      padding-left: 16px;
+    }
+  
+    @include media-breakpoint-up(lg) {
+      margin-top: 96px;
+      margin-bottom: 60px;
+      border-left-width: 8px;
+    }
+  }
+}

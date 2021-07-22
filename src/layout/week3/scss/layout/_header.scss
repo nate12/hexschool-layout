@@ -52,6 +52,14 @@
       width: 50%;
       border: 1px solid $white;
 
+      &:nth-child(odd) {
+        border-left-width: 0;
+      }
+
+      &:nth-child(even) {
+        border-right-width: 0;
+      }
+
       @include media-breakpoint-up(md) {
         width: auto;
         border: none;

@@ -1,0 +1,25 @@
+a {
+  transition: filter .5s, color .5s, background .5s;
+
+  &:hover {
+    color: $gray-600;
+  }
+
+  &.link-black {
+    width: 100%;
+    background-color: $black;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    color: $white;
+    text-align: center;
+
+    border: 1px solid $black;
+
+    &:hover {
+      background-color: $white;
+      color: $black;
+    }
+  }
+}

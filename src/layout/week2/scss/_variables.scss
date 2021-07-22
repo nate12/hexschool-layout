@@ -1,16 +1,22 @@
+@font-face {
+	font-family: 'Roboto';
+	unicode-range: U+00-024F;
+	font-style: italic;
+}
+
 $font-family: "Roboto", sans-serif;
 $font-size-base: 1rem;
 
 $spacer: 8px;
 $spacers: (
-    // 0: 0,
-    1: ($spacer * 1), //8
-    2: ($spacer * 2), //16
-    3: ($spacer * 3), //24
-    4: ($spacer * 4), //32
-    5: ($spacer * 5), //40
-    6: ($spacer * 6), //48 
-    7: ($spacer * 7), //56
-    8: ($spacer * 8), //64
-    10: ($spacer * 10), //80
+	// 0: 0,
+	1: ($spacer * 1), //8
+	2: ($spacer * 2), //16
+	3: ($spacer * 3), //24
+	4: ($spacer * 4), //32
+	5: ($spacer * 5), //40
+	6: ($spacer * 6), //48 
+	7: ($spacer * 7), //56
+	8: ($spacer * 8), //64
+	10: ($spacer * 10), //80
 );
