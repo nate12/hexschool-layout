@@ -17,11 +17,17 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 1
     },
+    "\/dist" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/dist",
+      "oF" : 0
+    },
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 1,
       "oAP" : "\/dist\/node_modules",
-      "oF" : 1
+      "oF" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
@@ -39,7 +45,7 @@
       "oO" : 1,
       "oS" : 1
     },
-    "\/readme.md" : {
+    "\/README.md" : {
       "cB" : 0,
       "cS" : 0,
       "eF" : 1,
@@ -58,17 +64,17 @@
       "rFN" : 0,
       "uCM" : 0
     },
-    "\/src\/layout\/week1\/kata\/index.pug" : {
+    "\/src\/week1\/kata\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week1\/kata\/index.html",
+      "oAP" : "\/dist\/week1\/kata\/index.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week1\/kata\/scss\/_reset.css" : {
+    "\/src\/week1\/kata\/scss\/_reset.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -76,11 +82,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/kata\/scss\/_reset-min.css",
+      "oAP" : "\/dist\/week1\/kata\/scss\/_reset-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/src\/layout\/week1\/kata\/scss\/style.scss" : {
+    "\/src\/week1\/kata\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -88,23 +94,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week1\/kata\/css\/style.css",
+      "oAP" : "\/dist\/week1\/kata\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/index.pug" : {
+    "\/src\/week1\/profile\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week1\/profile\/index.html",
+      "oAP" : "\/dist\/week1\/profile\/index.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/_layout.scss" : {
+    "\/src\/week1\/profile\/scss\/_layout.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -112,13 +118,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/css\/_layout.css",
+      "oAP" : "\/dist\/week1\/profile\/css\/_layout.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/_mixins.scss" : {
+    "\/src\/week1\/profile\/scss\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -126,13 +132,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/css\/_mixins.css",
+      "oAP" : "\/dist\/week1\/profile\/css\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/_reset.css" : {
+    "\/src\/week1\/profile\/scss\/_reset.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -140,11 +146,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/_reset-min.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/_reset-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/_utilities.scss" : {
+    "\/src\/week1\/profile\/scss\/_utilities.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -152,13 +158,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/css\/_utilities.css",
+      "oAP" : "\/dist\/week1\/profile\/css\/_utilities.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/_variables.scss" : {
+    "\/src\/week1\/profile\/scss\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -166,13 +172,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/css\/_variables.css",
+      "oAP" : "\/dist\/week1\/profile\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/layout\/_container.scss" : {
+    "\/src\/week1\/profile\/scss\/layout\/_container.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -180,13 +186,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_container.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_container.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/layout\/_footer.scss" : {
+    "\/src\/week1\/profile\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -194,13 +200,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_footer.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/layout\/_list.scss" : {
+    "\/src\/week1\/profile\/scss\/layout\/_list.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -208,13 +214,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_list.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/layout\/_tags.scss" : {
+    "\/src\/week1\/profile\/scss\/layout\/_tags.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -222,13 +228,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_tags.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_tags.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/layout\/_title.scss" : {
+    "\/src\/week1\/profile\/scss\/layout\/_title.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -236,13 +242,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_title.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_title.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/style.scss" : {
+    "\/src\/week1\/profile\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -250,13 +256,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week1\/profile\/css\/style.css",
+      "oAP" : "\/dist\/week1\/profile\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_background.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_background.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -264,13 +270,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_background.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_background.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_border.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_border.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -278,13 +284,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_border.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_border.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_display.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_display.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -292,13 +298,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_display.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_display.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_image.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_image.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -306,13 +312,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_image.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_spacing.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_spacing.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -320,13 +326,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_spacing.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_spacing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week1\/profile\/scss\/utilities\/_text.scss" : {
+    "\/src\/week1\/profile\/scss\/utilities\/_text.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -334,23 +340,23 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week1\/profile\/scss\/css\/_text.css",
+      "oAP" : "\/dist\/week1\/profile\/scss\/css\/_text.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/index.pug" : {
+    "\/src\/week2\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week2\/index.html",
+      "oAP" : "\/dist\/week2\/index.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week2\/scss\/_base.scss" : {
+    "\/src\/week2\/scss\/_base.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -358,13 +364,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/css\/_base.css",
+      "oAP" : "\/dist\/week2\/css\/_base.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/_container.scss" : {
+    "\/src\/week2\/scss\/_container.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -372,13 +378,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/css\/_container.css",
+      "oAP" : "\/dist\/week2\/css\/_container.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/_mixins.scss" : {
+    "\/src\/week2\/scss\/_mixins.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -386,13 +392,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/css\/_mixins.css",
+      "oAP" : "\/dist\/week2\/css\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/_reset.css" : {
+    "\/src\/week2\/scss\/_reset.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -400,11 +406,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/_reset-min.css",
+      "oAP" : "\/dist\/week2\/scss\/_reset-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/src\/layout\/week2\/scss\/_utilities.scss" : {
+    "\/src\/week2\/scss\/_utilities.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -412,13 +418,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/css\/_utilities.css",
+      "oAP" : "\/dist\/week2\/css\/_utilities.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/_variables.scss" : {
+    "\/src\/week2\/scss\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -426,13 +432,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/css\/_variables.css",
+      "oAP" : "\/dist\/week2\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/style.scss" : {
+    "\/src\/week2\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -440,13 +446,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week2\/css\/style.css",
+      "oAP" : "\/dist\/week2\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_background.scss" : {
+    "\/src\/week2\/scss\/utilities\/_background.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -454,13 +460,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_background.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_background.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_border.scss" : {
+    "\/src\/week2\/scss\/utilities\/_border.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -468,13 +474,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_border.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_border.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_display.scss" : {
+    "\/src\/week2\/scss\/utilities\/_display.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -482,13 +488,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_display.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_display.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_image.scss" : {
+    "\/src\/week2\/scss\/utilities\/_image.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -496,13 +502,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_image.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_list.scss" : {
+    "\/src\/week2\/scss\/utilities\/_list.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -510,13 +516,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_list.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_list.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_position.scss" : {
+    "\/src\/week2\/scss\/utilities\/_position.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -524,13 +530,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_position.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_position.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_size.scss" : {
+    "\/src\/week2\/scss\/utilities\/_size.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -538,13 +544,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_size.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_size.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_spacing.scss" : {
+    "\/src\/week2\/scss\/utilities\/_spacing.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -552,13 +558,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_spacing.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_spacing.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week2\/scss\/utilities\/_text.scss" : {
+    "\/src\/week2\/scss\/utilities\/_text.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -566,87 +572,87 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week2\/scss\/css\/_text.css",
+      "oAP" : "\/dist\/week2\/scss\/css\/_text.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/_config.pug" : {
+    "\/src\/week3\/_config.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/_config.html",
+      "oAP" : "\/dist\/week3\/_config.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/_footer.pug" : {
+    "\/src\/week3\/_footer.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/_footer.html",
+      "oAP" : "\/dist\/week3\/_footer.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/_head.pug" : {
+    "\/src\/week3\/_head.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/_head.html",
+      "oAP" : "\/dist\/week3\/_head.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/_header.pug" : {
+    "\/src\/week3\/_header.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/_header.html",
+      "oAP" : "\/dist\/week3\/_header.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/_layout.pug" : {
+    "\/src\/week3\/_layout.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/_layout.html",
+      "oAP" : "\/dist\/week3\/_layout.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/blog.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/blog.html",
-      "oF" : 0,
-      "oS" : 0
-    },
-    "\/src\/layout\/week3\/faq.pug" : {
+    "\/src\/week3\/blog.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/faq.html",
+      "oAP" : "\/dist\/week3\/blog.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/images\/banner-1.png" : {
+    "\/src\/week3\/faq.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week3\/faq.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week3\/images\/banner-1.png" : {
       "ft" : 32768,
       "iS" : 198938,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/banner-1.png",
+      "oAP" : "\/dist\/week3\/images\/banner-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -655,11 +661,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/banner-2.png" : {
+    "\/src\/week3\/images\/banner-2.png" : {
       "ft" : 32768,
       "iS" : 438340,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/banner-2.png",
+      "oAP" : "\/dist\/week3\/images\/banner-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -668,11 +674,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/banner-3.png" : {
+    "\/src\/week3\/images\/banner-3.png" : {
       "ft" : 32768,
       "iS" : 436217,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/banner-3.png",
+      "oAP" : "\/dist\/week3\/images\/banner-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -681,11 +687,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/banner-sm.png" : {
+    "\/src\/week3\/images\/banner-sm.png" : {
       "ft" : 32768,
       "iS" : 606844,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/banner-sm.png",
+      "oAP" : "\/dist\/week3\/images\/banner-sm.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -694,11 +700,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/banner.png" : {
+    "\/src\/week3\/images\/banner.png" : {
       "ft" : 32768,
       "iS" : 1519075,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/banner.png",
+      "oAP" : "\/dist\/week3\/images\/banner.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -707,11 +713,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/bg.png" : {
+    "\/src\/week3\/images\/bg.png" : {
       "ft" : 32768,
       "iS" : 1936950,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/bg.png",
+      "oAP" : "\/dist\/week3\/images\/bg.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -720,11 +726,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-1.png" : {
+    "\/src\/week3\/images\/blog-1.png" : {
       "ft" : 32768,
       "iS" : 276817,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-1.png",
+      "oAP" : "\/dist\/week3\/images\/blog-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -733,11 +739,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-2.png" : {
+    "\/src\/week3\/images\/blog-2.png" : {
       "ft" : 32768,
       "iS" : 279776,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-2.png",
+      "oAP" : "\/dist\/week3\/images\/blog-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -746,11 +752,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-3.png" : {
+    "\/src\/week3\/images\/blog-3.png" : {
       "ft" : 32768,
       "iS" : 132875,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-3.png",
+      "oAP" : "\/dist\/week3\/images\/blog-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -759,11 +765,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-4.png" : {
+    "\/src\/week3\/images\/blog-4.png" : {
       "ft" : 32768,
       "iS" : 234525,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-4.png",
+      "oAP" : "\/dist\/week3\/images\/blog-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -772,11 +778,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-5.png" : {
+    "\/src\/week3\/images\/blog-5.png" : {
       "ft" : 32768,
       "iS" : 373925,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-5.png",
+      "oAP" : "\/dist\/week3\/images\/blog-5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -785,11 +791,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-6.png" : {
+    "\/src\/week3\/images\/blog-6.png" : {
       "ft" : 32768,
       "iS" : 232850,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-6.png",
+      "oAP" : "\/dist\/week3\/images\/blog-6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -798,11 +804,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-7.png" : {
+    "\/src\/week3\/images\/blog-7.png" : {
       "ft" : 32768,
       "iS" : 182732,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-7.png",
+      "oAP" : "\/dist\/week3\/images\/blog-7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -811,11 +817,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-8.png" : {
+    "\/src\/week3\/images\/blog-8.png" : {
       "ft" : 32768,
       "iS" : 385012,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-8.png",
+      "oAP" : "\/dist\/week3\/images\/blog-8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -824,11 +830,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-9.png" : {
+    "\/src\/week3\/images\/blog-9.png" : {
       "ft" : 32768,
       "iS" : 426960,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-9.png",
+      "oAP" : "\/dist\/week3\/images\/blog-9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -837,12 +843,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/blog-10.jpg" : {
+    "\/src\/week3\/images\/blog-10.jpg" : {
       "ft" : 16384,
       "iS" : 2799039,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/blog-10.jpg",
+      "oAP" : "\/dist\/week3\/images\/blog-10.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -850,311 +856,311 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/icon-arrow.svg" : {
+    "\/src\/week3\/images\/icon-arrow.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-arrow.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-arrow.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-clock-black.svg" : {
+    "\/src\/week3\/images\/icon-clock-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-clock-black.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-clock-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-clock.svg" : {
+    "\/src\/week3\/images\/icon-clock.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-clock.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-clock.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-diamond-black.svg" : {
+    "\/src\/week3\/images\/icon-diamond-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-diamond-black.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-diamond-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-diamond-white.svg" : {
+    "\/src\/week3\/images\/icon-diamond-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-diamond-white.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-diamond-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-diamond.svg" : {
+    "\/src\/week3\/images\/icon-diamond.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-diamond.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-diamond.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-dollar.svg" : {
+    "\/src\/week3\/images\/icon-dollar.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-dollar.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-dollar.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-fb.svg" : {
+    "\/src\/week3\/images\/icon-fb.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-fb.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-fb.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-forward.svg" : {
+    "\/src\/week3\/images\/icon-forward.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-forward.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-forward.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-glasses.svg" : {
+    "\/src\/week3\/images\/icon-glasses.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-glasses.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-glasses.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-heart.svg" : {
+    "\/src\/week3\/images\/icon-heart.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-heart.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-heart.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-help.svg" : {
+    "\/src\/week3\/images\/icon-help.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-help.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-help.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-ig.svg" : {
+    "\/src\/week3\/images\/icon-ig.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-ig.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-ig.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-line.svg" : {
+    "\/src\/week3\/images\/icon-line.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-line.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-line.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-location.svg" : {
+    "\/src\/week3\/images\/icon-location.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-location.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-location.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-mail.svg" : {
+    "\/src\/week3\/images\/icon-mail.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-mail.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-mail.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-map.svg" : {
+    "\/src\/week3\/images\/icon-map.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-map.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-map.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-menu.svg" : {
+    "\/src\/week3\/images\/icon-menu.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-menu.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-menu.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-phone-black.svg" : {
+    "\/src\/week3\/images\/icon-phone-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-phone-black.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-phone-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-phone.svg" : {
+    "\/src\/week3\/images\/icon-phone.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-phone.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-phone.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-redo.svg" : {
+    "\/src\/week3\/images\/icon-redo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-redo.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-redo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-search.svg" : {
+    "\/src\/week3\/images\/icon-search.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-search.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-search.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-sun-black.svg" : {
+    "\/src\/week3\/images\/icon-sun-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-sun-black.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-sun-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-sun-white.svg" : {
+    "\/src\/week3\/images\/icon-sun-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-sun-white.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-sun-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-sun.svg" : {
+    "\/src\/week3\/images\/icon-sun.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-sun.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-sun.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-tag.svg" : {
+    "\/src\/week3\/images\/icon-tag.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-tag.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-tag.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-thunder-black.svg" : {
+    "\/src\/week3\/images\/icon-thunder-black.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-thunder-black.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-thunder-black.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-thunder-white.svg" : {
+    "\/src\/week3\/images\/icon-thunder-white.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-thunder-white.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-thunder-white.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-thunder.svg" : {
+    "\/src\/week3\/images\/icon-thunder.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-thunder.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-thunder.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/icon-undo.svg" : {
+    "\/src\/week3\/images\/icon-undo.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/icon-undo.svg",
+      "oAP" : "\/dist\/week3\/images\/icon-undo.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/locate.png" : {
+    "\/src\/week3\/images\/locate.png" : {
       "ft" : 32768,
       "iS" : 158873,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate.png",
+      "oAP" : "\/dist\/week3\/images\/locate.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1163,12 +1169,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/locate1.jpeg" : {
+    "\/src\/week3\/images\/locate1.jpeg" : {
       "ft" : 16384,
       "iS" : 179592,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate1.jpg",
+      "oAP" : "\/dist\/week3\/images\/locate1.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1176,12 +1182,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/locate2.jpg" : {
+    "\/src\/week3\/images\/locate2.jpg" : {
       "ft" : 16384,
       "iS" : 416277,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate2.jpg",
+      "oAP" : "\/dist\/week3\/images\/locate2.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1189,12 +1195,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/locate3.jpg" : {
+    "\/src\/week3\/images\/locate3.jpg" : {
       "ft" : 16384,
       "iS" : 445920,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate3.jpg",
+      "oAP" : "\/dist\/week3\/images\/locate3.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1202,12 +1208,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/locate4.jpg" : {
+    "\/src\/week3\/images\/locate4.jpg" : {
       "ft" : 16384,
       "iS" : 427029,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate4.jpg",
+      "oAP" : "\/dist\/week3\/images\/locate4.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1215,12 +1221,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/locate5.jpg" : {
+    "\/src\/week3\/images\/locate5.jpg" : {
       "ft" : 16384,
       "iS" : 2129042,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/locate5.jpg",
+      "oAP" : "\/dist\/week3\/images\/locate5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1228,31 +1234,31 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/logo-facebook.svg" : {
+    "\/src\/week3\/images\/logo-facebook.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/logo-facebook.svg",
+      "oAP" : "\/dist\/week3\/images\/logo-facebook.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/logo-instagram.svg" : {
+    "\/src\/week3\/images\/logo-instagram.svg" : {
       "ft" : 2097152,
       "miP" : 0,
       "oA" : 2,
-      "oAP" : "\/dist\/layout\/week3\/images\/logo-instagram.svg",
+      "oAP" : "\/dist\/week3\/images\/logo-instagram.svg",
       "oF" : 0,
       "opt" : 0,
       "plM" : 52780316221407,
       "prP" : 0
     },
-    "\/src\/layout\/week3\/images\/logo.png" : {
+    "\/src\/week3\/images\/logo.png" : {
       "ft" : 32768,
       "iS" : 3046,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/logo.png",
+      "oAP" : "\/dist\/week3\/images\/logo.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1261,11 +1267,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/more.png" : {
+    "\/src\/week3\/images\/more.png" : {
       "ft" : 32768,
       "iS" : 40359,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/more.png",
+      "oAP" : "\/dist\/week3\/images\/more.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1274,11 +1280,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-1.png" : {
+    "\/src\/week3\/images\/product-1.png" : {
       "ft" : 32768,
       "iS" : 175371,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-1.png",
+      "oAP" : "\/dist\/week3\/images\/product-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1287,11 +1293,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-2-color.png" : {
+    "\/src\/week3\/images\/product-2-color.png" : {
       "ft" : 32768,
       "iS" : 309272,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-2-color.png",
+      "oAP" : "\/dist\/week3\/images\/product-2-color.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1300,11 +1306,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-2.png" : {
+    "\/src\/week3\/images\/product-2.png" : {
       "ft" : 32768,
       "iS" : 160615,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-2.png",
+      "oAP" : "\/dist\/week3\/images\/product-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1313,11 +1319,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-3.png" : {
+    "\/src\/week3\/images\/product-3.png" : {
       "ft" : 32768,
       "iS" : 170784,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-3.png",
+      "oAP" : "\/dist\/week3\/images\/product-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1326,11 +1332,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-4.png" : {
+    "\/src\/week3\/images\/product-4.png" : {
       "ft" : 32768,
       "iS" : 772875,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-4.png",
+      "oAP" : "\/dist\/week3\/images\/product-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1339,11 +1345,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-5.png" : {
+    "\/src\/week3\/images\/product-5.png" : {
       "ft" : 32768,
       "iS" : 668401,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-5.png",
+      "oAP" : "\/dist\/week3\/images\/product-5.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1352,11 +1358,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-6.png" : {
+    "\/src\/week3\/images\/product-6.png" : {
       "ft" : 32768,
       "iS" : 47140,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-6.png",
+      "oAP" : "\/dist\/week3\/images\/product-6.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1365,11 +1371,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-7.png" : {
+    "\/src\/week3\/images\/product-7.png" : {
       "ft" : 32768,
       "iS" : 170475,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-7.png",
+      "oAP" : "\/dist\/week3\/images\/product-7.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1378,11 +1384,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-8.png" : {
+    "\/src\/week3\/images\/product-8.png" : {
       "ft" : 32768,
       "iS" : 347382,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-8.png",
+      "oAP" : "\/dist\/week3\/images\/product-8.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1391,11 +1397,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/product-9.png" : {
+    "\/src\/week3\/images\/product-9.png" : {
       "ft" : 32768,
       "iS" : 266465,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/product-9.png",
+      "oAP" : "\/dist\/week3\/images\/product-9.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1404,11 +1410,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/products-1.png" : {
+    "\/src\/week3\/images\/products-1.png" : {
       "ft" : 32768,
       "iS" : 40109,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-1.png",
+      "oAP" : "\/dist\/week3\/images\/products-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1417,11 +1423,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/products-2.png" : {
+    "\/src\/week3\/images\/products-2.png" : {
       "ft" : 32768,
       "iS" : 79494,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-2.png",
+      "oAP" : "\/dist\/week3\/images\/products-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1430,11 +1436,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/products-3.png" : {
+    "\/src\/week3\/images\/products-3.png" : {
       "ft" : 32768,
       "iS" : 74025,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-3.png",
+      "oAP" : "\/dist\/week3\/images\/products-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1443,11 +1449,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/products-4.png" : {
+    "\/src\/week3\/images\/products-4.png" : {
       "ft" : 32768,
       "iS" : 54912,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-4.png",
+      "oAP" : "\/dist\/week3\/images\/products-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1456,12 +1462,12 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/products-5.jpg" : {
+    "\/src\/week3\/images\/products-5.jpg" : {
       "ft" : 16384,
       "iS" : 874500,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-5.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-5.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1469,12 +1475,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-6.jpg" : {
+    "\/src\/week3\/images\/products-6.jpg" : {
       "ft" : 16384,
       "iS" : 178192,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-6.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-6.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1482,12 +1488,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-7.jpg" : {
+    "\/src\/week3\/images\/products-7.jpg" : {
       "ft" : 16384,
       "iS" : 413447,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-7.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-7.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1495,12 +1501,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-8.jpg" : {
+    "\/src\/week3\/images\/products-8.jpg" : {
       "ft" : 16384,
       "iS" : 432627,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-8.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-8.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1508,12 +1514,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-9.jpg" : {
+    "\/src\/week3\/images\/products-9.jpg" : {
       "ft" : 16384,
       "iS" : 2031282,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-9.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-9.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1521,12 +1527,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-10.jpg" : {
+    "\/src\/week3\/images\/products-10.jpg" : {
       "ft" : 16384,
       "iS" : 2147713,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-10.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-10.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1534,12 +1540,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-11.jpg" : {
+    "\/src\/week3\/images\/products-11.jpg" : {
       "ft" : 16384,
       "iS" : 809144,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-11.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-11.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1547,12 +1553,12 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/products-12.jpg" : {
+    "\/src\/week3\/images\/products-12.jpg" : {
       "ft" : 16384,
       "iS" : 420464,
       "jF" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/products-12.jpg",
+      "oAP" : "\/dist\/week3\/images\/products-12.jpg",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1560,11 +1566,11 @@
       "q" : 100,
       "rq" : 100
     },
-    "\/src\/layout\/week3\/images\/qa.png" : {
+    "\/src\/week3\/images\/qa.png" : {
       "ft" : 32768,
       "iS" : 373255,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/qa.png",
+      "oAP" : "\/dist\/week3\/images\/qa.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1573,11 +1579,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/rec-1.png" : {
+    "\/src\/week3\/images\/rec-1.png" : {
       "ft" : 32768,
       "iS" : 172614,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/rec-1.png",
+      "oAP" : "\/dist\/week3\/images\/rec-1.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1586,11 +1592,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/rec-2.png" : {
+    "\/src\/week3\/images\/rec-2.png" : {
       "ft" : 32768,
       "iS" : 148906,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/rec-2.png",
+      "oAP" : "\/dist\/week3\/images\/rec-2.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1599,11 +1605,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/rec-3.png" : {
+    "\/src\/week3\/images\/rec-3.png" : {
       "ft" : 32768,
       "iS" : 86566,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/rec-3.png",
+      "oAP" : "\/dist\/week3\/images\/rec-3.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1612,11 +1618,11 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/images\/rec-4.png" : {
+    "\/src\/week3\/images\/rec-4.png" : {
       "ft" : 32768,
       "iS" : 91872,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/images\/rec-4.png",
+      "oAP" : "\/dist\/week3\/images\/rec-4.png",
       "oF" : 0,
       "oIPL" : 0,
       "opt" : 1,
@@ -1625,37 +1631,37 @@
       "q" : 100,
       "rq" : 75
     },
-    "\/src\/layout\/week3\/index.pug" : {
+    "\/src\/week3\/index.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/index.html",
+      "oAP" : "\/dist\/week3\/index.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/location-store.pug" : {
+    "\/src\/week3\/location-store.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/location-store.html",
+      "oAP" : "\/dist\/week3\/location-store.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/location.pug" : {
+    "\/src\/week3\/location.pug" : {
       "cB" : 0,
       "cOD" : 1,
       "ft" : 512,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/location.html",
+      "oAP" : "\/dist\/week3\/location.html",
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/layout\/week3\/scss\/_reset.css" : {
+    "\/src\/week3\/scss\/_reset.css" : {
       "aP" : 1,
       "bl" : 0,
       "ci" : 0,
@@ -1663,11 +1669,11 @@
       "ft" : 16,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/_reset-min.css",
+      "oAP" : "\/dist\/week3\/scss\/_reset-min.css",
       "oF" : 0,
       "pg" : 0
     },
-    "\/src\/layout\/week3\/scss\/abstracts\/_variables.scss" : {
+    "\/src\/week3\/scss\/abstracts\/_variables.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1675,13 +1681,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_variables.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/layout\/_bg.scss" : {
+    "\/src\/week3\/scss\/layout\/_bg.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1689,13 +1695,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_bg.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_bg.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/layout\/_footer.scss" : {
+    "\/src\/week3\/scss\/layout\/_footer.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1703,13 +1709,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_footer.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_footer.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/layout\/_header.scss" : {
+    "\/src\/week3\/scss\/layout\/_header.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1717,13 +1723,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_header.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_header.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/layout\/_link.scss" : {
+    "\/src\/week3\/scss\/layout\/_link.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1731,13 +1737,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_link.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_link.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/layout\/_title.scss" : {
+    "\/src\/week3\/scss\/layout\/_title.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1745,13 +1751,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_title.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_title.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/style.scss" : {
+    "\/src\/week3\/scss\/style.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1759,13 +1765,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/layout\/week3\/css\/style.css",
+      "oAP" : "\/dist\/week3\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/utilities\/_image.scss" : {
+    "\/src\/week3\/scss\/utilities\/_image.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1773,13 +1779,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_image.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/vendors\/_bootstap.scss" : {
+    "\/src\/week3\/scss\/vendors\/_bootstap.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1787,13 +1793,13 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_bootstap.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_bootstap.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/layout\/week3\/scss\/vendors\/_material-design-icons.scss" : {
+    "\/src\/week3\/scss\/vendors\/_material-design-icons.scss" : {
       "aP" : 0,
       "bl" : 0,
       "dP" : 10,
@@ -1801,7 +1807,7 @@
       "ft" : 4,
       "ma" : 0,
       "oA" : 1,
-      "oAP" : "\/dist\/layout\/week3\/scss\/css\/_material-design-icons.css",
+      "oAP" : "\/dist\/week3\/scss\/css\/_material-design-icons.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,
@@ -1816,11 +1822,11 @@
   },
   "projectAttributes" : {
     "creationDate" : 647276410.43020105,
-    "displayValue" : "Hexschool",
+    "displayValue" : "Hexschool-layout",
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-glace",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 648671137.45129895
+    "lastBuiltDate" : 648671812.30438495
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
