@@ -1763,7 +1763,7 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 1,
       "oA" : 0,
       "oAP" : "\/dist\/week3\/css\/style.css",
       "oF" : 0,
@@ -3852,7 +3852,7 @@
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
-    "previewPathAddition" : "\/layout\/week3\/",
+    "previewPathAddition" : "\/week3\/",
     "purgeCSS" : {
       "blocklistEntries" : [
 

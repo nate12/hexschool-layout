@@ -1,11 +1,20 @@
 a {
-  transition: filter .5s, color .5s, background .5s;
+  transition: 
+    color .5s;
 
   &:hover {
     color: $gray-600;
   }
+}
 
-  &.link-black {
+.link {
+  transition: 
+    filter .5s, 
+    color .5s, 
+    background .5s,
+    transform .5s;
+
+  &-black {
     width: 100%;
     background-color: $black;
 
@@ -21,5 +30,13 @@ a {
       background-color: $white;
       color: $black;
     }
+  }
+
+  &-lighten--hover:hover {
+    filter: brightness(1.5);
+  }
+
+  &-darken--hover:hover {
+    filter: brightness(0.5);
   }
 }
