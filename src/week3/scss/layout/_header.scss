@@ -4,10 +4,6 @@
   flex-wrap: wrap;
   align-items: center;
   font-size: $h5-font-size;
-  position: sticky;
-  // width: 100%;
-  top: 0;
-  z-index: $zindex-sticky;
 
   @include media-breakpoint-up(md) {
     padding-left: 40px;
@@ -84,12 +80,4 @@
       padding-bottom: 8px;
     }
   }
-}
-
-.scrolled-down{
-  transform:translateY(-100%); transition: all 0.3s ease-in-out;
-}
-
-.scrolled-up{
-  transform:translateY(0); transition: all 0.3s ease-in-out;
 }

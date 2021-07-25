@@ -598,16 +598,6 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/week3\/_footer-script.pug" : {
-      "cB" : 0,
-      "cOD" : 1,
-      "ft" : 512,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/week3\/_footer-script.html",
-      "oF" : 0,
-      "oS" : 0
-    },
     "\/src\/week3\/_footer.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -1697,17 +1687,6 @@
       "oF" : 0,
       "oS" : 0
     },
-    "\/src\/week3\/js\/script.js" : {
-      "bF" : 4,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 0,
-      "oA" : 0,
-      "oAP" : "\/dist\/week3\/js\/script.min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 1
-    },
     "\/src\/week3\/location-store.pug" : {
       "cB" : 0,
       "cOD" : 1,
@@ -1747,18 +1726,6 @@
       "oAP" : "\/dist\/week3\/product-sun.html",
       "oF" : 0,
       "oS" : 0
-    },
-    "\/src\/week3\/scss\/_reset.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/week3\/scss\/_reset-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/src\/week3\/scss\/abstracts\/_variables.scss" : {
       "aP" : 1,
@@ -1914,7 +1881,7 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/week3\/scss\/utilities\/_image.scss" : {
+    "\/src\/week3\/scss\/utils\/_image.scss" : {
       "aP" : 1,
       "bl" : 1,
       "dP" : 10,
