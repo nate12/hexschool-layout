@@ -77,7 +77,8 @@ a:hover {
   color: #891818;
 }
 a.link-svg:hover {
-  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 .container {
@@ -89,8 +90,10 @@ a.link-svg:hover {
 }
 
 .row {
+  display: -webkit-flex;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
   margin-left: -12px;
   margin-right: -12px;
 }
@@ -128,25 +131,32 @@ a.link-svg:hover {
 }
 
 .d-flex {
+  display: -webkit-flex;
   display: flex;
 }
 
 .d-flex-center {
+  display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
 }
 
 .justify-content-center {
-  justify-content: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 .justify-content-between {
-  justify-content: space-between;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
 }
 
 .d-block {
@@ -163,7 +173,8 @@ a.link-svg:hover {
 }
 
 .img-fit-cover {
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /*li*/

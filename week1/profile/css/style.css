@@ -499,21 +499,27 @@ table {
 }
 
 .d-flex {
+  display: -webkit-flex;
   display: flex;
 }
 
 .d-flex-center {
+  display: -webkit-flex;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 
 .align-items-center {
-  align-items: center;
+  -webkit-align-items: center;
+          align-items: center;
 }
 
 .justify-content-center {
-  justify-content: center;
+  -webkit-justify-content: center;
+          justify-content: center;
 }
 
 body {
@@ -542,14 +548,18 @@ a {
 .title {
   font-family: "Roboto", "Noto Sans", "Noto Sans TC", -apple-system, "微軟正黑體", sans-serif;
   line-height: 1.4;
+  display: -webkit-flex;
   display: flex;
-  align-items: center;
+  -webkit-align-items: center;
+          align-items: center;
   border-bottom: 1px solid #000;
 }
 .title--name {
   font-size: 5rem;
 }
 .title--name .name {
+  width: -webkit-min-content;
+  width: -moz-min-content;
   width: min-content;
 }
 .title--section {
@@ -559,7 +569,8 @@ a {
 }
 @media (max-width: 576px) {
   .title--section {
-    flex-direction: column;
+    -webkit-flex-direction: column;
+            flex-direction: column;
   }
 }
 .title--section span {
@@ -597,7 +608,8 @@ a {
   }
 }
 .list-social a:hover {
-  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
 }
 
 .footer {
