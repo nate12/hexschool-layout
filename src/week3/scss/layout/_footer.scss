@@ -113,14 +113,9 @@
     flex-wrap: wrap;
 
     a {
-      filter: brightness(0) invert(1);
       &:hover {
         filter: brightness(0.2);
       }
-    }
-
-    img.instagram {
-      padding: .1em;
     }
 
     img {

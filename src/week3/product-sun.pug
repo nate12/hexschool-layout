@@ -1,0 +1,63 @@
+extends _layout
+
+block title
+  title 太陽眼鏡 | #{site_name}
+
+block content
+  nav.container.navbar-submenu
+    ul.row.g-0.list-unstyled.mb-0
+      li.col
+        a(href="product-op.html") 
+          span.material-icons-outlined auto_awesome
+          | optical
+      li.col
+        a.active(href="product-sun.html") 
+          span.material-icons-outlined light_mode
+          | sunglasses
+      li.col
+        a(href="javascript:;") 
+          span.material-icons-outlined flash_on
+          | functional
+  
+  main.pb-lg-7.pb-md-3.pb-0
+    .banner-half.row.g-0
+      .col
+        img(src="images/banner-3.png")
+      .col
+        img(src="images/product-2-color.png")
+    
+    h1.fw-normal.mb-3.mb-md-4.mb-lg-5.text-center.fs-5.fs-md-4.fs-lg-3.lh-base 2020 NEW COLLECTION
+      span.d-block.fs-6.fs-md-5.fs-lg-4 賽璐珞鈦金屬混合鏡框
+    
+    .container
+      - var n = 0;
+      ul.row.row-cols-lg-3.row-cols-md-2.row-cols-1.list-unstyled.mb-0
+        while n < 6
+          - n++;
+          if n > 3
+            - numClass = 'd-none d-md-block';
+          li.col.products-list(class=numClass)
+            a(href="javascript:;")
+              .ratio.link.link-darken--hover(style="--bs-aspect-ratio: 58%;")
+                img.img-object-cover(src='images/products-sun-'+ n % 2 +'.jpg')
+            .d-flex.justify-content-between
+              .products-list__name BJ41600S
+              .products-list__price NTD3,490
+            ul.products-list__colors
+              li.color.color-gray
+              li.color.color-brown
+
+    nav.pt-1.mb-7.text-nowrap.d-md-none
+      ul.pagination.justify-content-center
+        li.page-item
+          a.page-link(href='#') 上一頁
+        li.page-item
+          a.page-link(href='#') 1
+        li.page-item.active(aria-current='page')
+          a.page-link(href='#') 2
+        li.page-item
+          a.page-link(href='#') 3
+        li.page-item
+          a.page-link(href='#') 4
+        li.page-item.disabled
+          a.page-link(href='#') 下一頁

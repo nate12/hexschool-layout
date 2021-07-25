@@ -1,5 +1,6 @@
 @import
   'abstracts/variables',
+
   'vendors/bootstap',
   'vendors/material-design-icons',
 
@@ -7,7 +8,11 @@
 
   'layout/header',
   'layout/footer',
+  'layout/navbar',
   'layout/bg',
+  'layout/banner',
+  'layout/products-list',
   'layout/link',
-  'layout/title';
-  // 'components/slider',
+  'layout/title',
+  
+  'pages/blog';

@@ -4,22 +4,9 @@ block title
   title 部落格 | #{site_name}
 
 block content
-  .bg-heading.d-none.d-md-block
-    nav.container
-      ul.d-flex.list-unstyled.py-1.fs-lg-5
-        li.me-3
-          a.text-white(href="javascript:;") 最新消息
-        li.mx-3
-          a.text-white(href="javascript:;") 特別企劃 
-        li.mx-3
-          a.text-white(href="javascript:;") 新品上市 
-        li.mx-3
-          a.text-white(href="javascript:;") 鏡框小知識 
-        li.ms-auto
-          a.text-white(href="javascript:;")
-            span.material-icons-outlined.fs-lg-4 search
+  include _blog-sub-nav
 
-  .container.pb-lg-10.pb-md-6.pb-3
+  main.container.pb-lg-10.pb-md-6.pb-3
     h1.title.title-page 部落格
 
     ul.list-unstyled.mb-0
@@ -41,7 +28,7 @@ block content
                 .mt-auto.ms-auto.d-none.d-lg-block
                   a.text-heading.fs-4.fw-bold.link.link-darken--hover(href="blog-article.html") MORE 
 
-    nav.pt-md-6.pt-2.mb-10.text-nowrap.overflow-auto
+    nav.pt-md-6.pt-2.mb-10.text-nowrap
       ul.pagination.justify-content-center
         li.page-item
           a.page-link(href='#') 上一頁
@@ -53,7 +40,7 @@ block content
           a.page-link(href='#') 3
         li.page-item
           a.page-link(href='#') 4
-        li.page-item
+        li.page-item.d-none.d-md-block
           a.page-link(href='#') 5
         li.page-item.disabled
           a.page-link(href='#') 下一頁

@@ -1,0 +1,18 @@
+.article {
+  img {
+    width: 100%;
+    height: auto;
+    margin-bottom: $spacer * 3;
+  }
+
+  p {
+    margin-bottom: $spacer * 5;
+  }
+}
+
+.aside {
+  &__tag {
+    width: auto;
+    height: 1.5em;
+  }
+}

@@ -1,0 +1,86 @@
+extends _layout
+
+block title
+  title 情人特別企劃 | #{site_name}
+
+block content
+  include _blog-sub-nav
+
+  .container.pb-lg-10.pb-md-6.pb-3
+    nav(aria-label='breadcrumb').mb-1
+    ol.breadcrumb
+      li.breadcrumb-item 首頁
+      li.breadcrumb-item 部落格
+      li.breadcrumb-item 特別企劃
+      li.breadcrumb-item.active.text-primary(aria-current='page') 情人特別企劃
+    
+    ul.ps-0.fs-5.fw-bold
+      li.d-inline.me-2: a(href="javascript:;") #speical
+      li.d-inline.me-2: a(href="javascript:;") #event
+
+    .row
+      .col-md-9
+        article.article
+          h1.fs-2.mb-1 情人特別企劃
+          .d-flex.align-items-center.mb-3
+            .fs-lg-5.fs-6 2020 Valentine’s Special
+            .ms-auto 2020/02/14
+          
+          img(src="images/blog-1.png")
+          p 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品，結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+
+          img(src="images/blog-6.png")
+          p 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品， 結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+
+          img(src="images/blog-7.png")
+          p 一年一度西洋情人節即將到來，我們推出最強「情人節企劃」，為這個甜蜜的節日加溫。 本次拍攝的鏡框款式與 NEEDS CLASSIC 聯名設計款，偶爾跟另一半來個低調情侶單品， 結合彼此喜好、找出合適框型款式，在這個春夏輕鬆搭出屬於你們的甜蜜默契！
+
+          img(src="images/blog-10.jpg")
+          p
+            | 2/14(五)-2/20(日) 
+            br
+            | 至本店單筆消費滿2980元, 就送情人節限定眼鏡盒1個
+            br
+            | 期間優惠還有~~持他牌鏡框更換鏡片 
+            br
+            | 薄型非球面鏡片折300元 
+            br
+            | 濾藍光鏡片折500元
+          p 
+            | 快快帶上另一半 
+            br
+            | 讓彼此每一次睜開眼，都被愛的視線包圍!
+      aside.col-md-3.text-primary.fw-bold.order-last.order-md-0
+        .fs-md-5.fs-lg-4.mb-1.d-flex.align-items-center
+          img.aside__tag.me-1(src="images/icon-tag.svg", alt="tag")
+          | TAGS
+        ul.d-flex.flex-wrap.list-unstyled.fs-lg-5.fs-md-6
+          li.me-2: a(href="javascript:;") #special
+          li.me-2: a(href="javascript:;") #sale
+          li.me-2: a(href="javascript:;") #new_item
+          li.me-2: a(href="javascript:;") #intrerview
+          li.me-2: a(href="javascript:;") #trivia
+          li.me-2: a(href="javascript:;") #news
+          li.me-2: a(href="javascript:;") #event
+
+
+
+      .col-12.col-lg-9
+        .d-flex.align-items-center
+          .fw-blod Share
+          ul.d-flex.list-unstyled.mb-0
+            li: a.link.link-lighten--hover.ps-2(href="javascript:;")
+              img(src="images/logo-facebook.svg", alt="facebook")
+            li: a.link.link-lighten--hover.ps-2(href="javascript:;") 
+              img(src="images/logo-instagram.svg", alt="instagram")
+        hr.my-2
+        ul.d-flex.flex-wrap.justify-content-between.list-unstyled
+          li: a.text-black.d-flex.align-items-center(href="javascript:;")
+            span.material-icons.fs-6
+              | arrow_back
+            | 上一篇：街頭潮人訪問 1
+
+          li: a.text-black.d-flex.align-items-center(href="javascript:;")
+            | 下一篇：街頭潮人訪問 2
+            span.material-icons.fs-6.order-first.order-md-last
+              | arrow_forward

@@ -1,0 +1,42 @@
+.products-list {
+  font-size: $font-size-base * 1.5;
+  margin-bottom: $spacer * 4;
+
+  @include media-breakpoint-up(md) {
+    margin-bottom: $spacer * 9;
+  }
+
+  @include media-breakpoint-up(lg) {
+    margin-bottom: $spacer * 13;
+  }
+
+  &__price {
+    color: $primary;
+    font-weight: 600;
+  }
+
+  &__colors {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+
+    li + li {
+      margin-left: $spacer;
+    }
+
+    .color {
+      width: 24px;
+      height: 24px;
+      border-radius: 4px;
+
+      &-gray {
+        background-color: #5F3E2D;
+      }
+
+      &-brown {
+        background-color: #B75929;
+      }
+    }
+  }
+}

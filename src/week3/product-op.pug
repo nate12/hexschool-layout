@@ -1,0 +1,67 @@
+extends _layout
+
+block title
+  title 近遠視眼鏡 | #{site_name}
+
+block content
+  nav.container.navbar-submenu
+    ul.row.g-0.list-unstyled.mb-0
+      li.col
+        a.active(href="product-op.html") 
+          span.material-icons-outlined auto_awesome
+          | optical
+      li.col
+        a(href="product-sun.html") 
+          span.material-icons-outlined light_mode
+          | sunglasses
+      li.col
+        a(href="javascript:;") 
+          span.material-icons-outlined flash_on
+          | functional
+  
+  main
+    .banner-half.row.g-0
+      .col
+        img(src="images/banner-1.png")
+      .col
+        img(src="images/banner-2.png")
+    
+    h1.fw-normal.mb-3.mb-md-4.mb-lg-5.text-center.fs-5.fs-md-4.fs-lg-3.lh-base Celluloid Combi
+      span.d-block.fs-6.fs-md-5.fs-lg-4 賽璐珞鈦金屬混合鏡框
+    
+    .container
+      - var n = 0;
+      ul.row.row-cols-lg-4.row-cols-md-2.row-cols-1.list-unstyled.mb-0
+        while n < 12
+          - n++;
+          if n > 3
+            - numClass = 'd-none d-md-block';
+          if n > 10
+            - numClass = 'd-none d-lg-block';
+          li.col.products-list(class=numClass)
+            a(href="javascript:;")
+              .ratio.link.link-darken--hover(style="--bs-aspect-ratio: 58%;")
+                img.img-object-cover(src='images/products-'+ n +'.jpg')
+            .d-flex.justify-content-between
+              .products-list__name BJ41600S
+              .products-list__price NTD3,490
+            ul.products-list__colors
+              li.color.color-gray
+              li.color.color-brown
+    
+    nav.pt-1.mb-7.text-nowrap
+      ul.pagination.justify-content-center
+        li.page-item
+          a.page-link(href='#') 上一頁
+        li.page-item
+          a.page-link(href='#') 1
+        li.page-item.active(aria-current='page')
+          a.page-link(href='#') 2
+        li.page-item
+          a.page-link(href='#') 3
+        li.page-item
+          a.page-link(href='#') 4
+        li.page-item.d-none.d-md-block
+          a.page-link(href='#') 5
+        li.page-item.disabled
+          a.page-link(href='#') 下一頁

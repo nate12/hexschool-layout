@@ -1,0 +1,19 @@
+.banner {
+  &-half {
+    margin-bottom: $spacer * 4;
+
+    @include media-breakpoint-up(md) {
+      margin-bottom: $spacer * 7;
+    }
+
+    img {
+      width: 100%;
+      height: 148px;
+      object-fit: cover;
+
+      @include media-breakpoint-up(md) {
+        height: 304px;
+      }
+    }
+  }
+}

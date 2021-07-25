@@ -1,0 +1,80 @@
+.navbar {
+  &-submenu {
+    text-align: center;
+    text-transform: uppercase;
+
+    font-size: $font-size-base * 0.875;
+
+    @include media-breakpoint-up(md) {
+      font-size: $font-size-base * 1.5;
+    }
+
+    @include media-breakpoint-up(lg) {
+      font-size: $h4-font-size;
+    }
+
+    .material-icons-outlined {
+      font-size: $font-size-base * 0.875;
+
+      @include media-breakpoint-up(md) {
+        font-size: $font-size-base * 1.5;
+        margin-right: $spacer;
+      }
+  
+      @include media-breakpoint-up(lg) {
+        font-size: $h4-font-size;
+      }
+    }
+
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+
+      color: $black;
+      width: 100%;
+      height: 100%;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      border-left: 1px solid #DCDCDC;
+      border-right: 1px solid #DCDCDC;
+
+      @include media-breakpoint-up(md) {
+        padding-top: 14px;
+        padding-bottom: 14px;
+      }
+  
+      @include media-breakpoint-up(lg) {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        height: 4px;
+        background-color: $primary;
+        transition: width .5s;
+
+        @include media-breakpoint-up(md) {
+          height: 8px;
+        }
+      }
+
+      &:hover {
+        color: $black;
+      }
+      
+      &.active {
+        pointer-events: none;
+      }
+
+      &.active::after, &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}
