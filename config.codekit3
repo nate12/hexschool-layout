@@ -1741,6 +1741,34 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/src\/week3\/scss\/layout\/_article.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week3\/scss\/css\/_article.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/week3\/scss\/layout\/_aside.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week3\/scss\/css\/_aside.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
     "\/src\/week3\/scss\/layout\/_banner.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -1853,20 +1881,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/src\/week3\/scss\/pages\/_blog.scss" : {
-      "aP" : 1,
-      "bl" : 1,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 1,
-      "oAP" : "\/dist\/week3\/scss\/css\/_blog.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/src\/week3\/scss\/style.scss" : {
       "aP" : 1,
       "bl" : 1,
@@ -1936,7 +1950,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-glace",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 648899854.83868694
+    "lastBuiltDate" : 648930638.50218499
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
