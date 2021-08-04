@@ -8022,7 +8022,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .footer__address {
-    font-size: 4rem;
+    font-size: 2.25rem;
   }
   .footer__address .material-icons-outlined {
     font-size: 4rem;
@@ -8170,6 +8170,10 @@ textarea.form-control-lg {
 }
 .navbar-submenu a.active::after, .navbar-submenu a:hover::after {
   width: 100%;
+}
+
+.form-control {
+  background-color: transparent;
 }
 
 .bg-img {
