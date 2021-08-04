@@ -55,7 +55,7 @@
     }
 
     @include media-breakpoint-up(lg) {
-      font-size: $h1-font-size;
+      font-size: (36/16)+rem;
 
       .material-icons-outlined {
         font-size: $h1-font-size;
