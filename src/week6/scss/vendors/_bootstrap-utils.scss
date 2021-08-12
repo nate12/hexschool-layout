@@ -1,0 +1,66 @@
+/* stylelint-disable */
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "bg-size": (
+      property: background-size,
+      class: bg-size,
+      // class: cursor,
+      // responsive: true,
+      values: cover contain,
+      
+    ),
+    "bg-position": (
+      property: background-position,
+      class: bg-position,
+      // class: cursor,
+      // responsive: true,
+      values: (
+        center: center center
+      ),
+    ),
+    "object-fit": (
+      property: object-fit,
+      // class: cursor,
+      // responsive: true,
+      values: cover contain,
+    ),
+    "height": map-merge(
+      map-get($utilities, "height"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "height"), "values"),
+          (
+            480px: 480px,
+            400px: 400px
+          ),
+        ),
+      ),
+    ),
+    "background-color": map-merge(
+      map-get($utilities, "background-color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "background-color"), "values"),
+          (
+            'gallery':    #efefef,
+            'secondary-trans': #190014CC
+          ),
+        ),
+      ),
+    ),
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      (
+        responsive: true
+      ),
+    ),
+    "font-weight": map-merge(
+      map-get($utilities, "font-weight"),
+      (
+        responsive: true
+      ),
+    ),
+  )
+);

@@ -17,6 +17,20 @@
       "oAP" : "\/dist\/.gitignore",
       "oF" : 1
     },
+    "\/.stylelintrc.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/.stylelintrc-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/.vscode" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/dist\/.vscode",
+      "oF" : 0
+    },
     "\/dist" : {
       "ft" : 65536,
       "oA" : 1,
@@ -92,12 +106,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/week1\/kata\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/index.pug" : {
@@ -116,12 +130,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/css\/_layout.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/_mixins.scss" : {
@@ -130,12 +144,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/css\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/_reset.css" : {
@@ -156,12 +170,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/css\/_utilities.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/_variables.scss" : {
@@ -170,12 +184,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/layout\/_container.scss" : {
@@ -184,12 +198,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_container.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/layout\/_footer.scss" : {
@@ -198,12 +212,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_footer.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/layout\/_list.scss" : {
@@ -212,12 +226,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_list.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/layout\/_tags.scss" : {
@@ -226,12 +240,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_tags.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/layout\/_title.scss" : {
@@ -240,12 +254,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_title.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/style.scss" : {
@@ -254,12 +268,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/week1\/profile\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_background.scss" : {
@@ -268,12 +282,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_background.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_border.scss" : {
@@ -282,12 +296,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_border.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_display.scss" : {
@@ -296,12 +310,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_display.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_image.scss" : {
@@ -310,12 +324,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_spacing.scss" : {
@@ -324,12 +338,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_spacing.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week1\/profile\/scss\/utilities\/_text.scss" : {
@@ -338,12 +352,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week1\/profile\/scss\/css\/_text.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/index.pug" : {
@@ -362,12 +376,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/css\/_base.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/_container.scss" : {
@@ -376,12 +390,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/css\/_container.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/_mixins.scss" : {
@@ -390,12 +404,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/css\/_mixins.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/_reset.css" : {
@@ -416,12 +430,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/css\/_utilities.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/_variables.scss" : {
@@ -430,12 +444,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/style.scss" : {
@@ -444,12 +458,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/week2\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_background.scss" : {
@@ -458,12 +472,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_background.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_border.scss" : {
@@ -472,12 +486,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_border.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_display.scss" : {
@@ -486,12 +500,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_display.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_image.scss" : {
@@ -500,12 +514,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_list.scss" : {
@@ -514,12 +528,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_list.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_position.scss" : {
@@ -528,12 +542,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_position.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_size.scss" : {
@@ -542,12 +556,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_size.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_spacing.scss" : {
@@ -556,12 +570,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_spacing.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week2\/scss\/utilities\/_text.scss" : {
@@ -570,12 +584,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week2\/scss\/css\/_text.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/_blog-sub-nav.pug" : {
@@ -873,7 +887,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/icon-arrow.svg" : {
@@ -1199,7 +1213,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/locate2.jpg" : {
@@ -1212,7 +1226,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/locate3.jpg" : {
@@ -1225,7 +1239,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/locate4.jpg" : {
@@ -1238,7 +1252,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/locate5.jpg" : {
@@ -1251,7 +1265,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/logo-facebook.svg" : {
@@ -1440,7 +1454,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-2.jpg" : {
@@ -1453,7 +1467,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-3.jpg" : {
@@ -1466,7 +1480,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-4.jpg" : {
@@ -1479,7 +1493,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-5.jpg" : {
@@ -1492,7 +1506,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-6.jpg" : {
@@ -1505,7 +1519,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-7.jpg" : {
@@ -1518,7 +1532,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-8.jpg" : {
@@ -1531,7 +1545,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-9.jpg" : {
@@ -1544,7 +1558,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-10.jpg" : {
@@ -1557,7 +1571,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-11.jpg" : {
@@ -1570,7 +1584,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-12.jpg" : {
@@ -1583,7 +1597,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-sun-0.jpg" : {
@@ -1596,7 +1610,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/products-sun-1.jpg" : {
@@ -1609,7 +1623,7 @@
       "oIPL" : 0,
       "opt" : 1,
       "ou" : "lpckwebp-none",
-      "q" : 100,
+      "q" : 70,
       "rq" : 100
     },
     "\/src\/week3\/images\/qa.png" : {
@@ -1733,12 +1747,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_variables.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_article.scss" : {
@@ -1747,12 +1761,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_article.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_aside.scss" : {
@@ -1761,12 +1775,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_aside.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_banner.scss" : {
@@ -1775,12 +1789,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_banner.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_bg.scss" : {
@@ -1789,12 +1803,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_bg.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_footer.scss" : {
@@ -1803,12 +1817,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_footer.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_form.scss" : {
@@ -1817,12 +1831,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_form.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_header.scss" : {
@@ -1831,12 +1845,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_header.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_link.scss" : {
@@ -1845,12 +1859,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_link.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_navbar.scss" : {
@@ -1859,12 +1873,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_navbar.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_products-list.scss" : {
@@ -1873,12 +1887,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_products-list.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/layout\/_title.scss" : {
@@ -1887,12 +1901,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_title.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/style.scss" : {
@@ -1901,12 +1915,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 1,
+      "ma" : 2,
       "oA" : 0,
       "oAP" : "\/dist\/week3\/css\/style.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/utils\/_image.scss" : {
@@ -1915,12 +1929,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_image.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/vendors\/_bootstap.scss" : {
@@ -1929,12 +1943,12 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_bootstap.css",
       "oF" : 0,
       "oS" : 0,
-      "pg" : 0,
+      "pg" : 2,
       "sct" : 0
     },
     "\/src\/week3\/scss\/vendors\/_material-design-icons.scss" : {
@@ -1943,12 +1957,380 @@
       "dP" : 10,
       "ec" : 1,
       "ft" : 4,
-      "ma" : 0,
+      "ma" : 2,
       "oA" : 1,
       "oAP" : "\/dist\/week3\/scss\/css\/_material-design-icons.css",
       "oF" : 0,
       "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/_config.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_config.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_footer.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_footer.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_head.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_head.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_header.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_header.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_layout.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_layout.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_nav-type.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_nav-type.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/_swiper.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/_swiper.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/images\/bg-flow.png" : {
+      "ft" : 32768,
+      "iS" : 421770,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/bg-flow.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/week6\/images\/bg-inside.jpg" : {
+      "ft" : 16384,
+      "iS" : 713412,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/bg-inside.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/bg-watch.jpg" : {
+      "ft" : 16384,
+      "iS" : 528496,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/bg-watch.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/facebook-24px.svg" : {
+      "ft" : 2097152,
+      "miP" : 0,
+      "oA" : 2,
+      "oAP" : "\/dist\/week6\/images\/facebook-24px.svg",
+      "oF" : 0,
+      "opt" : 0,
+      "plM" : 52780316221407,
+      "prP" : 0
+    },
+    "\/src\/week6\/images\/list01.jpg" : {
+      "ft" : 16384,
+      "iS" : 1405659,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/list01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/list02.jpg" : {
+      "ft" : 16384,
+      "iS" : 611039,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/list02.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/list03.jpg" : {
+      "ft" : 16384,
+      "iS" : 3405065,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/list03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1146999,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/max-van-den-oetelaar-IMYe9uYN27E-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/people.png" : {
+      "ft" : 32768,
+      "iS" : 38428,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/people.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/src\/week6\/images\/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg" : {
+      "ft" : 16384,
+      "iS" : 1697370,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/ricardo-gomez-angel-j5gCOKZdm6I-unsplash.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/swiper00.jpg" : {
+      "ft" : 16384,
+      "iS" : 1812311,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/swiper00.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/swiper01.jpg" : {
+      "ft" : 16384,
+      "iS" : 543176,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/swiper01.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/images\/swiper02.jpg" : {
+      "ft" : 16384,
+      "iS" : 2016219,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/images\/swiper03.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 70,
+      "rq" : 100
+    },
+    "\/src\/week6\/index.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/index.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/product.pug" : {
+      "cB" : 0,
+      "cOD" : 1,
+      "ft" : 512,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/product.html",
+      "oF" : 0,
+      "oS" : 0
+    },
+    "\/src\/week6\/scss\/abstracts\/_variables.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_variables.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/base\/_typography.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_typography.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/layout\/_background.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_background.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/layout\/_links.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_links.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/main.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 1,
+      "oA" : 0,
+      "oAP" : "\/dist\/week6\/css\/main.css",
+      "oF" : 0,
+      "oS" : 0,
       "pg" : 0,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/vendors\/_bootstrap-utils.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_bootstrap-utils.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/vendors\/_bootstrap.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_bootstrap.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
+      "sct" : 0
+    },
+    "\/src\/week6\/scss\/vendors\/_material-design-icons.scss" : {
+      "aP" : 1,
+      "bl" : 1,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 2,
+      "oA" : 1,
+      "oAP" : "\/dist\/week6\/scss\/css\/_material-design-icons.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 2,
       "sct" : 0
     }
   },
@@ -1964,7 +2346,7 @@
     "displayValueWasSetByUser" : 1,
     "iconImageName" : "brackets-glace",
     "iconImageWasSetByUser" : 0,
-    "lastBuiltDate" : 649761164.47116196
+    "lastBuiltDate" : 650485706.25698602
   },
   "projectSettings" : {
     "abortBuildOnError" : 1,
@@ -3795,7 +4177,7 @@
       "autoOutputPathReplace2" : "",
       "autoOutputPathStyle" : 0,
       "outputFormat" : 0,
-      "quality" : 100,
+      "quality" : 70,
       "webpOptimizationPresetUUID" : "lpckwebp-none",
       "webpRGBQuality" : 100
     },
@@ -3915,14 +4297,14 @@
       "autoOutputPathReplace2" : "css",
       "autoOutputPathStyle" : 2,
       "compilerType" : 0,
-      "cssoStyle" : 0,
+      "cssoStyle" : 2,
       "decimalPrecision" : 10,
       "emitCharset" : 1,
       "outputStyle" : 0,
-      "purgeCSSStyle" : 0,
+      "purgeCSSStyle" : 2,
       "shouldRunAutoprefixer" : 1,
       "shouldRunBless" : 1,
-      "sourceMapStyle" : 0
+      "sourceMapStyle" : 2
     },
     "languageDefaultsSLIM" : {
       "autoOutputAction" : 0,
@@ -3990,7 +4372,7 @@
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
-    "previewPathAddition" : "\/week3\/",
+    "previewPathAddition" : "\/week6\/",
     "purgeCSS" : {
       "blocklistEntries" : [
 
@@ -4031,7 +4413,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "\/storage\/framework\/sessions,readme.md,node_modules,_logs,logs,log,.idea,doc,_cache,cache",
+    "skippedFoldersString" : "\/storage\/framework\/sessions,readme.md,node_modules,_logs,logs,log,.idea,doc,_cache,cache,.vscode",
     "sourceFolderName" : "src",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,

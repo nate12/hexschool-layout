@@ -1,0 +1,8 @@
+{
+  "blueprint.templatesPath": [
+    "./.vscode/blueprint-templates"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.stylelint": true
+  }
+}

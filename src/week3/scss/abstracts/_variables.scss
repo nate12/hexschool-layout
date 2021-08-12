@@ -1,36 +1,31 @@
 // Variables
 
 // scss-docs-start gray-color-variables
-$white:    #fff;
-$black:    #000;
+$white: #fff;
+$black: #000;
 // scss-docs-end gray-color-variables
 
 // scss-docs-start theme-color-variables
-$primary:       #aa0601;
-$secondary:     #FBF2F2;
+$primary: #aa0601;
+$secondary: #fbf2f2;
 // $success:       $green !default;
 // $info:          $cyan !default;
 // $warning:       $yellow !default;
 // $danger:        $red !default;
-$light:         $white;
-$dark:          #212529;
+$light: $white;
+$dark: #212529;
 // scss-docs-end theme-color-variables
 
 // scss-docs-start theme-colors-map
 $theme-colors: (
-  "primary":    $primary,
-  "secondary":  $secondary,
-  // "success":    $success,
-  // "info":       $info,
-  // "warning":    $warning,
-  // "danger":     $danger,
-  "light":      $light,
-  "dark":       $dark,
-  "black":      $black,
-  "heading":  #650300,
+  'primary':    $primary,
+  'secondary':  $secondary,
+  'light':      $light,
+  'dark':       $dark,
+  'black':      $black,
+  'heading':  #650300,
 );
 // scss-docs-end theme-colors-map
-
 
 // Spacing
 // scss-docs-start spacer-variables-maps
@@ -71,26 +66,26 @@ $body-color: $black;
 //
 // Style anchor elements.
 
-$link-color:                              $primary !default;
-$link-decoration:                         none;
-$link-shade-percentage:                   20% !default;
-$link-hover-color:                        shift-color($link-color, $link-shade-percentage) !default;
-$link-hover-decoration:                   null !default;
+$link-color: $primary !default;
+$link-decoration: none;
+$link-shade-percentage: 20% !default;
+$link-hover-color: shift-color($link-color, $link-shade-percentage) !default;
+$link-hover-decoration: null !default;
 
-$stretched-link-pseudo-element:           after !default;
-$stretched-link-z-index:                  1 !default;
+$stretched-link-pseudo-element: after !default;
+$stretched-link-z-index: 1 !default;
 
 // Paragraphs
 //
 // Style p element.
 
-$paragraph-margin-bottom:   1rem !default;
-
+$paragraph-margin-bottom: 1rem !default;
 
 // Grid breakpoints
 // scss-docs-start grid-breakpoints
 $grid-breakpoints: (
   xs: 0,
+  sm: 576px,
   md: 768px,
   lg: 992px,
   xl: 1200px
@@ -103,6 +98,7 @@ $grid-breakpoints: (
 
 // scss-docs-start container-max-widths
 $container-max-widths: (
+  sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1140px
@@ -113,8 +109,8 @@ $container-max-widths: (
 //
 // Set the number of columns and specify the width of the gutters.
 
-$grid-gutter-width:           30px;
-$grid-row-columns:            6 !default;
+$grid-gutter-width: 30px;
+$grid-row-columns: 6 !default;
 
 $gutters: $spacers !default;
 
@@ -124,31 +120,31 @@ $container-padding-x: $grid-gutter-width * .5 !default;
 
 // Typography
 // stylelint-disable value-keyword-case
-$font-family-sans-serif: Roboto, "Noto Sans",system-ui, -apple-system, "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-sans-serif: Roboto, 'Noto Sans',system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, 'Liberation Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 // stylelint-enable value-keyword-case
 
 // $font-size-root affects the value of `rem`, which is used for as well font sizes, paddings, and margins
 // $font-size-base affects the font size of the body text
-$font-size-root:              null !default;
-$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
-$font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.25 !default;
+$font-size-root: null !default;
+$font-size-base: 1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm: $font-size-base * .875 !default;
+$font-size-lg: $font-size-base * 1.25 !default;
 
-$line-height-base:            1.5 !default;
-$line-height-sm:              1.25 !default;
-$line-height-lg:              2 !default;
+$line-height-base: 1.5 !default;
+$line-height-sm: 1.25 !default;
+$line-height-lg: 2 !default;
 
 // 64px
-$h1-font-size:                $font-size-base * 4;
+$h1-font-size: $font-size-base * 4;
 // 48px
-$h2-font-size:                $font-size-base * 3;
+$h2-font-size: $font-size-base * 3;
 // 42px
-$h3-font-size:                $font-size-base * 2.625;
+$h3-font-size: $font-size-base * 2.625;
 // 32px
-$h4-font-size:                $font-size-base * 2;
+$h4-font-size: $font-size-base * 2;
 // 20px
-$h5-font-size:                $font-size-base * 1.25;
-$h6-font-size:                $font-size-base;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
 // scss-docs-end font-variables
 
 // scss-docs-start font-sizes
@@ -159,26 +155,26 @@ $font-sizes: (
   4: $h4-font-size,
   5: $h5-font-size,
   6: $h6-font-size,
-  7: $font-size-base * 0.875,
+  7: $font-size-base * .875,
 );
 // scss-docs-end font-sizes
 
 // scss-docs-start headings-variables
-$headings-margin-bottom:      0;
-$headings-font-weight:        700;
-$headings-line-height:        1.2 !default;
+$headings-margin-bottom: 0;
+$headings-font-weight: 700;
+$headings-line-height: 1.2 !default;
 // scss-docs-end headings-variables
 
-$pagination-color:        #555555;
-$pagination-border-radius:  none;
-$pagination-border-color: #555555;
-$pagination-hover-color:    $white;
-$pagination-hover-bg:       $black;
-$pagination-active-color:   $white;
-$pagination-active-bg:      $black;
+$pagination-color: #555;
+$pagination-border-radius: none;
+$pagination-border-color: #555;
+$pagination-hover-color: $white;
+$pagination-hover-bg: $black;
+$pagination-active-color: $white;
+$pagination-active-bg: $black;
 
-$pagination-disabled-bg:  #F2F2F2;
-$pagination-disabled-border-color:  #555555;
+$pagination-disabled-bg: #f2f2f2;
+$pagination-disabled-border-color: #555;
 
 $border-widths: (
   1: 1px,
@@ -186,15 +182,14 @@ $border-widths: (
 );
 
 $utilities: (
-  "font-size": (
+  'font-size': (
     responsive: true,
     rfs: true,
     property: font-size,
     class: fs,
     values: $font-sizes
   ),
-
-  "position": (
+  'position': (
     responsive: true,
     property: position,
     values: static relative absolute fixed sticky

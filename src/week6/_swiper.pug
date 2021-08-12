@@ -1,0 +1,11 @@
+section.container(class="mb-md-3.75")
+  h2(class="mb-1 mb-md-1.5") 猜你也喜歡...
+  - var n = 0
+  ul.row.flex-md-nowrap.overflow-scroll.list-unstyled.mb-0
+    while n < 3
+      li(class=n==0 ? 'offset-md-1 col-md-4 mb-0.5' : 'col-md-4 mb-0.5')
+        .ratio.ratio-1x1(class="mb-0.5")
+          img.object-fit-cover(src="images/swiper0"+ n%3 +".jpg")
+        .h5 No.22 線上設計展
+        p.fs-5 $350
+      - n++
