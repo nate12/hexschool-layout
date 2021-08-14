@@ -5,20 +5,21 @@ html(lang="zh-TW")
     meta(http-equiv="X-UA-Compatible", content="IE=edge")
     meta(name="viewport", content="width=device-width, initial-scale=1.0")
     title Joanne Chen 自我介紹
+    link(rel="stylesheet", href="https://unpkg.com/aos@2.3.1/dist/aos.css")
     link(rel="stylesheet", href="css/style.css")
     base(href="https://hexschool.github.io/webLayoutTraining1st/week1/" target="_blank")
   body
     main.main
       section.container
-        h1.title.title--name.mt-4
+        h1.title.title--name.mt-4(data-aos="fade-up")
           span.name Joanne Chen
-        img.my-6.img-fluid(src="photo.png", alt="Joanne Chen's photo")
+        img.my-6.img-fluid(src="photo.png", alt="Joanne Chen's photo" data-aos="fade-up")
 
       section.mb-9.container
-        h2.title.title--section
+        h2.title.title--section(data-aos="fade-up")
           | 個人資料
           span Profile
-        ul.mb-3
+        ul.mb-3(data-aos="fade-up")
           li 陳久安 Joanne Chen
           li 1997-
           li.mb-3 應屆畢業生／接案設計師／UI 設計實習生
@@ -29,19 +30,19 @@ html(lang="zh-TW")
             | 品牌規劃、視覺設計、編輯設計、標準字、物件及印刷品設計等。
 
       section.mb-9.container
-        h2.title.title--section
+        h2.title.title--section(data-aos="fade-up")
           | 學歷
           span Education
-        ul
+        ul(data-aos="fade-up")
           li.mb-3 國立六角師範大學 視覺設計學系 學士學位 | 2016－2020
           li 國立六腳高級中學 美術班 | 2013－2016
       
       section.mb-9.pt-3.pb-4.bg-blue.text-white
         .container-md
-          h2.title.title--section.d-flex-center.border-white.pb-1.mb-5
+          h2.title.title--section.d-flex-center.border-white.pb-1.mb-5(data-aos="fade-up")
             | 技能
             span.text-white Skills
-          ul.d-table.mx-auto.border-left.border-white.text-weight-lighter.px-3
+          ul.d-table.mx-auto.border-left.border-white.text-weight-lighter.px-3(data-aos="fade-up")
             li.mb-2 Adobe Photoshop
             li.mb-2 Adobe Illustrator
             li.mb-2 Adobe XD
@@ -51,10 +52,10 @@ html(lang="zh-TW")
             li 語言：中文、英文
         
       section.mb-9.container
-        h2.title.title--section
+        h2.title.title--section(data-aos="fade-up")
           | 工作經驗
           span Work Experience
-        ul.list-content
+        ul.list-content(data-aos="fade-up")
           li.mb-3
             h3 六角學院 視覺設計實習生 | 2019/07－2020/06
             img.my-1(src="Group%201.svg", alt="logo-hexschool")
@@ -74,10 +75,10 @@ html(lang="zh-TW")
       
     footer.footer.bg-blue.text-white.pt-3.pb-6
       .container
-        h2.title.title--section.d-flex-center.pb-1.mb-4.border-white
+        h2.title.title--section.d-flex-center.pb-1.mb-4.border-white(data-aos="fade-up")
           | 聯絡方式
           span.text-white CONTACT METHOD
-        address.text-weight-lighter
+        address.text-weight-lighter(data-aos="fade-up")
           ul.text-center
             li.mb-2 Mail：
               a(href="mailto:xxxd@hexschool.com") xxxd@hexschool.com
@@ -94,3 +95,8 @@ html(lang="zh-TW")
               img.img-fluid(src="instagram-alt.svg", alt="instagram") 
             li: a(href="#")
               img.img-fluid(src="line.svg", alt="line") 
+    script(src="https://unpkg.com/aos@2.3.1/dist/aos.js")
+    script.
+      AOS.init({
+        duration: 600
+      });

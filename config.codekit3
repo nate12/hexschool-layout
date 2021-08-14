@@ -4372,7 +4372,7 @@
     "npmSaveExactVersion" : 0,
     "npmTargetDependencyListType" : 1,
     "overrideExternalServerCSS" : 0,
-    "previewPathAddition" : "\/week6\/",
+    "previewPathAddition" : "\/week1\/profile",
     "purgeCSS" : {
       "blocklistEntries" : [
 
