@@ -1,0 +1,29 @@
+footer.bg-secondary.text-white(class="py-1.5 py-lg-2")
+  .container
+    .row.justify-content-between.align-items-center
+      .col(class="my-0.5")
+        p.mb-0.fs-4.fs-lg-3 現在訂閱，獲得課程優惠碼！
+      .col-12.col-lg-auto
+        .input-group.input-group-lg
+          input.form-control(type="email", placeholder="輸入您的電子信箱", aria-label="輸入您的電子信箱", aria-describedby="button-email")
+          button.btn.btn-primary.text-white#button-email(type="button") 訂閱
+  hr(class="my-1.5 my-lg-2")
+  .container.position-relative
+    .d-flex.justify-content-between
+      nav
+        img.h-30px(img srcset="images/logo-white@2x.png 2x", src="images/logo-white.png", alt="Doyoga", class="mb-0.5")
+        ul.list-unstyled.mb-0
+          li(class="mb-0.5"): a.link-white(href="javascript:;") 課程介紹
+          li(class="mb-0.5"): a.link-white(href="javascript:;") 瑜珈空間
+          li: a.link-white(href="javascript:;") 當月課表
+      div
+        ul.list-unstyled.mb-0.d-flex
+          li(class="me-0.5"): a(href="javascript:;")
+            img.h-24px(src="images/icon-fb.svg", alt="favebook")
+          li(class="me-0.5"): a(href="javascript:;")
+            img.h-24px(src="images/icon-ig.svg", alt="favebook")
+          li: a(href="javascript:;")
+            img.h-24px(src="images/icon-line.svg", alt="favebook")
+    p.mb-0.position-md-absolute.bottom-0.start-50.translate-middle-md-x(class="mt-0.5") © 2021. All Rights Reserved.
+
+script(src="js/main.min.js")

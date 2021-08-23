@@ -1,0 +1,17 @@
+@import 'swiper/swiper-bundle';
+
+.columnSwiper {
+  .swiper-button-next,
+  .swiper-button-prev {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-top: 0;
+    color: $secondary;
+  }
+
+  .swiper-button-next::after,
+  .swiper-button-prev::after {
+    content: none;
+  }
+}

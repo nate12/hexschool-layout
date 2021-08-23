@@ -1,0 +1,213 @@
+extends _layout
+
+block title
+  title #{site_name}
+
+block content
+  section.position-relative
+    img.position-absolute.w-100.h-100.object-fit-cover.object-position-bottom(src="images/banner.jpg", alt="")
+    .container.position-relative
+      .row.h-580px
+        .col-md-5.offset-md-1.align-self-center
+          .text-dark
+            p.mb-0 健身輕時尚
+            h1.fs-3.fs-md-1 DOYOGA，做你的瑜珈
+            p.fs-5.fs-md-4.mb-1 多給自己一點時間享受靜謐，傾聽內心的聲音。
+            .d-flex.gap-1
+              a.btn.btn-lg.btn-light.text-dark(href="javasctript:;") 立即預約
+              a.btn.btn-lg.btn-primary.text-white(href="javasctript:;") 課程介紹
+
+  section.container(class="pt-2  pt-md-2.5 pb-3 pb-md-4")
+    .text-center.mb-2
+      h2.fs-3.text-secondary 感受身心，活在當下
+      p.fs-5.text-primary DOYOGA 可以帶給你...
+    
+    ul.row.row-cols-1.row-cols-md-3.gy-1.list-unstyled
+      li.col
+        a.position-relative.d-flex.align-items-end.h-420px.h-md-252px.h-lg-420px(href="javasctript:;" class="p-1.5")
+          img.rounded-3.position-absolute.top-0.start-0.w-100.h-100.object-fit-cover(src="images/photo01.jpg", alt="整體健身")
+          .position-relative.text-white
+            h3.fs-5.fw-normal 整體健身
+            p.mb-0 每一個動作，都融入運動解剖學的的觀點強調以身體的中心線為出發點。
+      li.col
+        a.position-relative.d-flex.align-items-end.h-420px.h-md-252px.h-lg-420px(href="javasctript:;" class="p-1.5")
+          img.rounded-3.position-absolute.top-0.start-0.w-100.h-100.object-fit-cover(src="images/photo02.jpg", alt="整體健身")
+          .position-relative.text-white
+            h3.fs-5.fw-normal 減壓放鬆
+            p.mb-0 調節全身系統、改善血液循環、減壓養心、釋放身心，達到修心養性的目的。
+      li.col
+        a.position-relative.d-flex.align-items-end.h-420px.h-md-252px.h-lg-420px(href="javasctript:;" class="p-1.5")
+          img.rounded-3.position-absolute.top-0.start-0.w-100.h-100.object-fit-cover(src="images/photo03.jpg", alt="局部雕塑")
+          .position-relative.text-white
+            h3.fs-5.fw-normal 局部雕塑
+            p.mb-0 幫助強化背部與腹部的核心肌群，增進我們身體穩定度以及保持良好體態。
+
+  section.bg-light(class="py-3 py-md-4")
+    .container
+      .row
+        .col-md-6.d-none.d-lg-block
+          .rounded-3.overflow-hidden.position-relative.h-100
+            img.w-100.h-100.object-fit-cover.position-absolute(src="images/photo04.jpg", alt="頂尖師資、專業教學")
+        .col-md(class="py-0 py-md-2").align-self-center.position-relative
+          h2.fs-3.text-secondary.text-center.text-lg-start 頂尖師資、專業教學
+          p.fs-5.text-primary(class="col-md-8 offset-md-2 col-lg-12 offset-lg-0") 強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。
+          div(class="col-md-10 offset-md-2 col-lg-12 offset-lg-0")
+            ul.d-grid.gap-1.list-unstyled.m-0.text-dark(class="mt-1.5")
+              li.bg-white.rounded-3(class="p-1 px-md-3 py-md-2.5 ms-md--5")
+                .d-flex.align-items-center(class="gap-1.25")
+                  div.col-2.col-md-auto
+                    img.img-fluid.rounded-circle(src="images/teacher-1.png", alt="Carol Tang 老師")
+                  div
+                    h3.fs-5.fw-normal(class="mb-0.5") Carol Tang 老師
+                    p(class="mb-0.5") 教學經歷 10 年
+                    p(class="mb-0") 瑜珈讓我重新認識自己的身體，也讓我有了不一樣的人生。
+
+              li.bg-white.rounded-3(class="p-1 px-md-2 py-md-1.5")
+                .d-flex.align-items-center(class="gap-1.25")
+                  div.col-2.col-md-auto
+                    img.img-fluid.rounded-circle(src="images/teacher-2.png", alt="Carol Tang 老師")
+                  div
+                    h3.fs-5.fw-normal(class="mb-0.5") Kanae 老師
+                    p(class="mb-0") 教學經歷 10 年
+
+              li.bg-white.rounded-3(class="p-1 px-md-2 py-md-1.5")
+                .d-flex.align-items-center(class="gap-1.25")
+                  div.col-2.col-md-auto
+                    img.img-fluid.rounded-circle(src="images/teacher-3.png", alt="Carol Tang 老師")
+                  div
+                    h3.fs-5.fw-normal(class="mb-0.5") Asa Ifrit 老師
+                    p(class="mb-0") 教學經歷 10 年
+
+  section.container(class="py-3 py-md-4")
+    .row.align-items-center(class="gx-1 gx-md-2")
+      .col-12.col-md-6.col-lg-5.order-md-last.my-1
+        h2.fs-3.text-secondary 舒適空間、靜心放鬆
+        p.fs-5.text-primary 強力師資，經歷豐富，協會認證。運用引導式教學，針對不同需求的人制定專屬課程。
+        a.link-secondary(href="javasctript:;")
+          .d-flex.align-items-center
+            |環境介紹
+            span.material-icons-outlined(class="ms-0.5") arrow_right_alt
+      
+      .col-6.col-md-4
+        .ratio.ratio-3x4
+          img.object-fit-cover.rounded-3(src="images/photo05.jpg")
+
+      .col-6.col-md-2
+        .d-grid.gap-2
+          .ratio.ratio-3x4
+            img.object-fit-cover.rounded-3(src="images/photo09.jpg")
+          .ratio.ratio-3x4.d-none.d-sm-block
+            img.object-fit-cover.rounded-3(src="images/photo10.jpg")
+
+  section.bg-light.overflow-hidden
+    .container(class="py-3 py-md-4")
+      .row.position-relative.align-items-center
+        .col-md-6.col-lg-5.offset-lg-1.my-1
+          h2.fs-3.text-secondary 精心設計、課程多元
+          p.fs-5.text-primary 教師帶領多元課程，釋放壓力，與身心常見的緊繃不適溫柔和解。
+          a.link-secondary(href="javasctript:;")
+            .d-flex.align-items-center
+              |課程介紹
+              span.material-icons-outlined(class="ms-0.5") arrow_right_alt
+        
+        //- 卡位用 Start 用來幫下個區塊的 absolute 的位置卡位
+        .col-md-5.invisible.d-none.d-xl-block
+          .ratio.ratio-1x1
+            img.object-fit-cover.rounded-3(src="images/photo06.jpg")
+        //- 卡位用 End
+
+        .col-md.offset-xl-6.position-xl-absolute.top-0
+          .row.flex-xl-nowrap.overflow-scroll(class="g-1 g-md-1.5")
+            .col-6.col-xl-5
+              .ratio.ratio-1x1
+                img.object-fit-cover.rounded-3(src="images/photo06.jpg")
+            .col-6.col-xl-5
+              .ratio.ratio-1x1
+                img.object-fit-cover.rounded-3(src="images/photo07.jpg")
+            .col-6.col-xl-5
+              .ratio.ratio-1x1
+                img.object-fit-cover.rounded-3(src="images/photo08.jpg")
+            .col-6.col-xl-5
+              .ratio.ratio-1x1
+                img.object-fit-cover.rounded-3(src="images/photo12.jpg")
+            .col-xl-4.m-0
+
+  section.container(class="py-3 py-md-4")
+    .text-center.mb-2
+      h2.fs-3.text-secondary 方案選擇
+      p.fs-5.text-primary DOYOGA 可以帶給你...
+    ul.row.row-cols-xl-3.row-cols-1.list-unstyled(class="gy-1.5")
+      li.col
+        .card.rounded-3.border-primary.overflow-hidden
+          .row.g-0
+            .col-md.col-xl-12
+              .ratio.ratio-4x3.h-100
+                img.object-fit-cover(src="images/photo12.jpg", alt="首次體驗")
+            .col-md.d-flex.flex-column.justify-content-between
+              .card-body.text-secondary(class="p-1.5")
+                .text-center.text-md-start.text-xl-center(class="mb-0.5")
+                  h3.fs-5.fw-normal 首次體驗
+                  .fs-5.text-primary NT $450 / 次
+                p.card-text 分基礎、中級、高級可以選擇。初次至DOYOGA 上課建議選擇此方案。
+              div(class="p-1.5")
+                a.btn.btn-lg.btn-primary.w-100.text-white(href="javasctript:;") 選擇課程
+      li.col
+        .card.rounded-3.border-primary.overflow-hidden
+          .row.g-0
+            .col-md.col-xl-12
+              .ratio.ratio-4x3.h-100
+                img.object-fit-cover(src="images/photo14.jpg", alt="短期體驗")
+            .col-md.d-flex.flex-column.justify-content-between
+              .card-body.text-secondary(class="p-1.5")
+                .text-center.text-md-start.text-xl-center(class="mb-0.5")
+                  h3.fs-5.fw-normal 短期體驗
+                  .fs-5.text-primary NT $1800 / 月
+                p.card-text 分基礎、中級、高級可以選擇。想試著培養瑜珈習慣者可以選擇此方案。
+              div(class="p-1.5")
+                a.btn.btn-lg.btn-primary.w-100.text-white(href="javasctript:;") 選擇課程
+
+      li.col
+        .card.rounded-3.border-primary.overflow-hidden
+          .row.g-0
+            .col-md.col-xl-12
+              .ratio.ratio-4x3.h-100
+                img.object-fit-cover(src="images/photo11.jpg", alt="長期體驗")
+            .col-md.d-flex.flex-column.justify-content-between
+              .card-body.text-secondary(class="p-1.5")
+                .text-center.text-md-start.text-xl-center(class="mb-0.5")
+                  h3.fs-5.fw-normal 長期體驗
+                  .fs-5.text-primary NT $5600 / 季
+                p.card-text 分基礎、中級、高級可以選擇。有長期習慣做瑜伽者建議選擇此方案。
+              div(class="p-1.5")
+                a.btn.btn-lg.btn-primary.w-100.text-white(href="javasctript:;") 選擇課程
+
+  - var userData = [{name:'Joanne', content:'服務很好、設備優良！'},{name:'穎旻', content:'上課後身體健康很多'},{name:'子琪', content:'上課很有趣！'},{name:'葉子', content:'老師的教學很專業'},{name:'Ray', content:'很舒壓'},{name:'俊儀', content:'讚的！'}]
+  section.bg-light
+    .container-xl.px-md-0.px-xl-1(class="py-3 py-md-4")
+      .text-center.mb-2
+        h2.fs-3.text-secondary 聽聽他們怎麼說
+      
+      .swiper-container.columnSwiper.px-md-1.px-xl-0
+        .swiper-wrapper
+          each val, index in userData
+            .swiper-slide
+              .bg-white.rounded-3(class="p-1 px-md-2 py-md-1.5")
+                .d-flex.align-items-center(class="gap-1.25")
+                  div.col-2.col-md-auto
+                    img.img-fluid.rounded-circle(src="images/user-"+ (index+1) +".png", alt=val.name)
+                  div
+                    h3.fs-6.fw-normal(class="mb-0.5")
+                      |#{val.name}
+                      span.small(class="ms-0.5") Oct 17 2020
+                    .text-primary(class="mb-0.5")
+                      span.material-icons-outlined star_purple500
+                      span.material-icons-outlined star_purple500
+                      span.material-icons-outlined star_purple500
+                      span.material-icons-outlined star_purple500
+                      span.material-icons-outlined star_purple500
+                    p(class="mb-0") #{val.content}
+        .d-flex.justify-content-between.d-md-none
+          .swiper-button-prev
+            span.material-icons-outlined.fs-2 west
+          .swiper-button-next
+            span.material-icons-outlined.fs-2 east

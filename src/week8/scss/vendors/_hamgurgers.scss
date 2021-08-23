@@ -1,0 +1,20 @@
+$hamburger-padding-x: 0;
+$hamburger-padding-y: 0;
+$hamburger-layer-width: 33px;
+$hamburger-layer-height: 4px !default;
+$hamburger-layer-spacing: 5px !default;
+$hamburger-layer-color: #907a7b;
+$hamburger-layer-border-radius: 4px !default;
+$hamburger-hover-opacity: .7 !default;
+$hamburger-active-layer-color: $hamburger-layer-color !default;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity !default;
+
+$hamburger-hover-use-filter: false !default;
+$hamburger-hover-filter: opacity(50%) !default;
+$hamburger-active-hover-filter: $hamburger-hover-filter !default;
+
+$hamburger-types: (
+  squeeze
+);
+
+@import 'hamburgers/_sass/hamburgers/hamburgers';

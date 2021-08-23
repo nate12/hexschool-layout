@@ -1,0 +1,20 @@
+header.sticky-top
+  nav.navbar.navbar-expand-lg.navbar-light.bg-light(class="py-1.25")
+    .container
+      a.navbar-brand(href="index.html")
+        img.h-30px(img srcset="images/logo@2x.png 2x", src="images/logo.png", alt="Doyoga")
+      button.navbar-toggler(type="button", data-bs-toggle="collapse", data-bs-target="#navbarSupportedContent", aria-controls="navbarSupportedContent", aria-expanded="false", aria-label="Toggle navigation")
+        //- span.navbar-toggler-icon
+        .hamburger.hamburger--squeeze: .hamburger-box: .hamburger-inner
+
+      .collapse.navbar-collapse#navbarSupportedContent
+        ul.navbar-nav.mx-auto.py-1.py-lg-0
+          li.nav-item
+            a.nav-link.px-1(href="#") 課程介紹
+          li.nav-item
+            a.nav-link.px-1(href="#") 瑜珈空間
+          li.nav-item
+            a.nav-link.px-1(href="#") 當月課表
+        .d-flex.gap-1
+          a.btn.btn-outline-primary.rounded-3 立即預約
+          a.btn.btn-outline-primary.rounded-3 聯絡我們

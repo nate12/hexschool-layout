@@ -1,0 +1,98 @@
+/* stylelint-disable */
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "bg-size": (
+      property: background-size,
+      class: bg-size,
+      values: cover contain,
+      
+    ),
+    "bg-position": (
+      property: background-position,
+      class: bg-position,
+      values: (
+        center: center center
+      ),
+    ),
+    "object-fit": (
+      property: object-fit,
+      values: cover contain,
+    ),
+    "object-position": (
+      property: object-position,
+      values: (
+        bottom: center bottom
+      ),
+    ),
+    "height": map-merge(
+      map-get($utilities, "height"),
+      (
+        responsive: true,
+        values: map-merge(
+          map-get(map-get($utilities, "height"), "values"),
+          (
+            580px: 580px, //index-banner
+            420px: 420px, //index-感受身心，活在當下
+            252px: 252px, //index-感受身心，活在當下-md
+            30px: 30px,   //logo
+            24px: 24px,   //footer-icon
+          ),
+        ),
+      ),
+    ),
+    "position": map-merge(
+      map-get($utilities, "position"),
+      (
+        values: static fixed sticky
+      ),
+    ),
+    "position-responsive": (
+      property: position,
+      responsive: true,
+      values: relative absolute
+    ),
+    "background-color": map-merge(
+      map-get($utilities, "background-color"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "background-color"), "values"),
+          (
+            'gallery':    #efefef,
+            'secondary-trans': #190014CC
+          ),
+        ),
+      ),
+    ),
+    "margin-start": map-merge(
+      map-get($utilities, "margin-start"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "margin-start"), "values"),
+          (
+            -5: $spacer * -5
+          ),
+        ),
+      ),
+    ),
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      (
+        responsive: true
+      ),
+    ),
+    "font-weight": map-merge(
+      map-get($utilities, "font-weight"),
+      (
+        responsive: true
+      ),
+    ),
+    "translate-middle": map-merge(
+      map-get($utilities, "translate-middle"),
+      (
+        responsive: true
+      ),
+    ),
+  )
+);
