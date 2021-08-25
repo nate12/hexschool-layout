@@ -1,25 +1,26 @@
 {
-  "name": "codekit-project",
-  "version": "1.0.0",
-  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
-  "scripts": {
-    "deploy": "gh-pages -d dist"
-  },
   "author": "",
-  "license": "UNLICENSED",
-  "repository": {},
-  "private": true,
-  "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "stylelint": "^13.13.1",
-    "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.20.1"
-  },
   "dependencies": {
     "@popperjs/core": "^2.9.3",
     "bootstrap": "^5.1.0",
     "hamburgers": "^1.1.3",
-    "swiper": "^6.8.1"
-  }
+    "swiper": "^7.0.0"
+  },
+  "version": "1.0.0",
+  "devDependencies": {
+    "gh-pages": "^3.2.3",
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-sass-guidelines": "^8.0.0",
+    "stylelint-scss": "^3.20.1"
+  },
+  "license": "UNLICENSED",
+  "description": "CodeKit created this starter package.json file. You should customize it appropriately. (If you intend to publish this project on npm, add an entry in the 'repository' field and remove the 'private' attribute, below.)",
+  "private": true,
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "optionalDependencies": {},
+  "repository": {},
+  "name": "codekit-project"
 }
